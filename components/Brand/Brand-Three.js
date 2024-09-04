@@ -12,7 +12,7 @@ const BrandThree = (props) => {
           <div className="row align-items-center" key={index}>
             <div className="col-lg-12">
               <div className="section-title text-center mb--40">
-               <h4 className="rbt-card-title w-600">{data.title}</h4>
+               <h4 className="rbt-card-title w-500" style={{fontSize:"20px"}}>{data.title}</h4>
               </div>
               <ul className="brand-list brand-style-2 justify-content-center justify-content-lg-between">
                 {data.logo.map((item, innerIndex) => (
