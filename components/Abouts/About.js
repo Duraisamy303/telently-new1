@@ -67,7 +67,7 @@ const About = () => {
                       </span>
                     </div>
                 <h2 className="title" style={{fontWeight:"normal"}}>
-                  {data.title} <br /> {data.subTitle}
+                   {data.subTitle}
                 </h2>
               </div>
               <p className="description mt--30">{data.desc}</p>

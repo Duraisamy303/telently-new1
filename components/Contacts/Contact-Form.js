@@ -129,7 +129,7 @@ const ContactForm = ({ gap }) => {
                 <div className="form-submit-group">
                   <button
                     type="submit"
-                    className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
+                    className="rbt-btn btn-md btn-gradient hover-icon-reverse "
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Hire Now</span>

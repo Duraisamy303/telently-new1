@@ -19,14 +19,21 @@ const WhyTalentelyCallToAction = () => {
               </div>
             </div> */}
             <div className="col-xxl-6 col-xl-6 col-lg-6">
-              <div className="inner-content text-start">
-                <h3 className="title color-white">{data.title}</h3>
-                <h4 className="color-white">{data.desc}</h4>
+              <div className="inner-content text-start ">
+                <h3 className="title color-white" style={{fontWeight:"normal",paddingTop:"15px"}}>{`${data.desc}`}</h3>
+                {/* <h4 className="color-white">{data.desc}</h4> */}
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div className="call-to-btn text-start text-xl-end">
-                <Link className="rbt-btn btn-white hover-icon-reverse" href="#">
+                <Link className="rbt-btn btn-white hover-icon-reverse" href="#" 
+                 style={{
+                  padding: "0px 30px",
+                  height: "54px",
+                  lineHeight: "55px",
+                  fontSize: "14px",
+                }}
+                >
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">Contact Us</span>
                     <span className="btn-icon">
