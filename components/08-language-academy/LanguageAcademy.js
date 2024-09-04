@@ -337,10 +337,10 @@ const LanguageAcademy = () => {
           </div>
         </div>
       </div> */}
-      <div className="rbt-brand-area bg-color-white ptb--60">
+     <div className="rbt-brand-area bg-color-white ptb--60">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-12">
+            <div className="col-lg-10 offset-lg-1">
               <BrandThree data={alumini} />
             </div>
           </div>
