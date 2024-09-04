@@ -9,7 +9,7 @@ const HeaderStyleSeven = ({ headerSticky }) => {
   const { isLightTheme, toggleTheme } = useAppContext();
   return (
     <>
-      <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
+      {/* <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} /> */}
       <header className="rbt-header rbt-header-7 rbt-transparent-header">
         <div className="rbt-sticky-placeholder"></div>
         <HeaderTopTwo

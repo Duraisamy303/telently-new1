@@ -7,7 +7,7 @@ const HeaderStyleFour = () => {
   const { isLightTheme, toggleTheme } = useAppContext();
   return (
     <>
-      <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
+      {/* <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} /> */}
       <header className="rbt-header rbt-header-4">
         <div className="rbt-sticky-placeholder"></div>
         <HeaderTopFour

@@ -11,7 +11,7 @@ const HeaderStyleEight = () => {
   const path = router.pathname;
   return (
     <>
-      <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
+      {/* <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} /> */}
       <header
         className={`rbt-header ${
           path === "/08-language-academy" ? "" : "rbt-dark-header-8"

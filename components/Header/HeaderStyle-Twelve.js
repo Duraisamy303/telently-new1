@@ -69,7 +69,7 @@ const HeaderStyleTwelve = () => {
   }, []);
   return (
     <>
-      <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
+      {/* <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} /> */}
       <header className="rbt-header">
         <HeaderTopBar />
 

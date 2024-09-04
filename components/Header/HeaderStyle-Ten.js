@@ -11,7 +11,7 @@ const HeaderStyleTen = ({ headerSticky }) => {
   const router = useRouter();
   return (
     <>
-      <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
+      {/* <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} /> */}
       <header className="rbt-header rbt-header-10">
         {router.pathname === "/01-main-demo" &&
         "/16-udemy-affiliate" &&

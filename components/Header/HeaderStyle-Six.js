@@ -10,7 +10,7 @@ const HeaderStyleSix = ({ headerType }) => {
   const router = useRouter();
   return (
     <>
-      <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
+      {/* <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} /> */}
       <header className={`rbt-header rbt-header-default ${headerType}`}>
         <div className="rbt-sticky-placeholder"></div>
         {router.pathname === "/02-course-school" ? <HeaderTopBar /> : ""}
