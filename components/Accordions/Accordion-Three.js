@@ -9,7 +9,7 @@ const AccordionThree = () => {
             <div className="rbt-accordion-style accordion">
               <div className="section-title text-center mb--30">
                 <span className="subtitle bg-pink-opacity">{data.tag}</span>
-                <h2 className="title">{data.title}</h2>
+                <h2 className="title" style={{fontWeight:"normal"}}>{data.title}</h2>
                 {/* <p className="description has-medium-font-size mt--20">
                   <strong>{data.strong}</strong> {data.description}
                 </p> */}

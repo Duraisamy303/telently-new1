@@ -60,13 +60,18 @@ const About = () => {
           <div className="col-lg-6">
             <div className="inner pl--50 pl_sm--0 pl_md--0">
               <div className="section-title text-start">
-                <span className="subtitle bg-coral-opacity">{data.tag}</span>
-                <h2 className="title">
+                {/* <span className="subtitle bg-coral-opacity">{data.tag}</span> */}
+                <div className="section-title text-start">
+                      <span className="subtitle bg-primary-opacity">
+                      {data.tag}
+                      </span>
+                    </div>
+                <h2 className="title" style={{fontWeight:"normal"}}>
                   {data.title} <br /> {data.subTitle}
                 </h2>
               </div>
               <p className="description mt--30">{data.desc}</p>
-              <h4>Our Core Values</h4>
+              <h4 style={{fontWeight:"normal"}}>Our Core Values</h4>
               {data.children.map((item, innerIndex) => (
                 <div className="rbt-feature-wrapper mt--40" key={innerIndex}>
                   <div className="rbt-feature feature-style-1">

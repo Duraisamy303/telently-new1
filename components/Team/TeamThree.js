@@ -11,7 +11,7 @@ const TeamThree = () => {
     <>
       <div className="container">
         {/* <TeamHead title="Team (Modern)." desc="Modern Circle Style." /> */}
-        <h3 className="title text-center mb--30"  >
+        <h3 className="title text-center mb--30" style={{fontWeight:"normal"}} >
           Recruit for a Wide Range of Skillsets
         </h3>
         <div className="row row--15">
@@ -35,7 +35,7 @@ const TeamThree = () => {
                       </div>
                       <div className="content">
                         <h4
-                          style={{ textAlign: "center", fontSize: "24px" }}
+                          style={{ textAlign: "center", fontSize: "24px",fontWeight:"normal" }}
                           dangerouslySetInnerHTML={{ __html: item.name }}
                         ></h4>
                         {/* <h6 className="subtitle theme-gradient">{item.type}</h6>

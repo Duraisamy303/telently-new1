@@ -6,7 +6,7 @@ const CounterHead = ({ bgClass, tag, title, subTitle, desc, mb }) => {
       <div className="col-lg-12">
         <div className="section-title text-center">
           <span className={`subtitle ${bgClass}`}>{tag}</span>
-          <h2 className="title">
+          <h2 className="title" style={{fontWeight:"normal"}}>
             {title} <br /> {subTitle}
           </h2>
           <p className="description has-medium-font-size mt--20 mb--0">
