@@ -51,7 +51,7 @@ const Card = ({ start, end, col, mt, isDesc, isUser,data }) => {
                   </Link>
                 </h4>
                
-                {data?.desc ? <p className="rbt-card-text">{data.desc}</p> : ""}
+                {data?.desc ? <p className="rbt-card-text" style={{fontSize:"16px"}}>{data.desc}</p> : ""}
                 <div className="rbt-card-top">
                   <div className="rbt-review">
                     <div className="rating">

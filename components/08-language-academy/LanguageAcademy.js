@@ -358,7 +358,7 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className="rbt-counterup-area rbt-section-gapBottom bg-gradient-5  ">
+      <div className="rbt-counterup-area rbt-section-gapBottom bg-gradient-5 ">
         <div className="container">
           <div className="row mb--50 ">
             <div className="col-lg-12">
@@ -382,7 +382,7 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className="rbt-counterup-area rbt-section-gapBottom" >
+      <div className="rbt-counterup-area rbt-section-gapBottom"  style={{paddingBottom:"60px"}}>
         <div className="container">
           <div className="row mb--50 ">
             <div className="col-lg-12">
@@ -421,6 +421,7 @@ const LanguageAcademy = () => {
                   <Link
                     className="rbt-btn hover-icon-reverse btn-border color-white-off mt--30 mb--30"
                     href="#"
+                    style={{padding:"0px 22px",lineHeight:"53px",height:"53px"}}
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Know More</span>
@@ -447,7 +448,7 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className=" bg-grey rbt-section-gap-own">
+      <div className=" bg-grey rbt-section-gap-own" style={{padding:"60px"}}>
         <div className="container">
           <div className="row  ">
             <div className="col-lg-12">
@@ -467,7 +468,7 @@ const LanguageAcademy = () => {
       </div>
       <div>
         <div className="container">
-          <div className="row mt--60">
+          <div className="row mt--60 mb--60">
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity">
@@ -487,7 +488,7 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own">
+      <div className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own" style={{padding:"60px"}}>
         <CallToActionSix />
       </div>
     </>

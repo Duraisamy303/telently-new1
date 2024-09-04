@@ -15,7 +15,7 @@ const FooterThree = () => {
   return (
     <>
       <footer className="rbt-footer footer-style-1 ">
-        <div className="footer-top">
+        <div className="footer-top" style={{paddingTop:"60px",paddingBottom:"60px"}}>
           <div className="container">
             {FooterData &&
               FooterData.footerOne.map((footer, index) => (
