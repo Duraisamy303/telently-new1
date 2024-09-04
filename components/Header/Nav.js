@@ -35,7 +35,7 @@ const Nav = () => {
             <i className="feather-chevron-down"></i>
           </Link> */}
 
-          <Link className={` color-white`} onClick={() => {}} href="About">
+          <Link className={` color-white `} onClick={() => {}} href="About">
             About us
             {/* <i className="feather-chevron-down"></i> */}
           </Link>
