@@ -140,7 +140,7 @@ const HeaderMidOne = ({
                   <Link
                     className="rbt-btn rbt-switch-btn btn-gradient btn-sm hover-transform-none"
                     href="#"
-                    style={{fontSize:"14px",height:"39px",lineHeight:"39px",}}
+                    style={{fontSize:"12px",height:"38px",lineHeight:"38px",}}
                   >
                     <span data-text="Get Free Course">Login/Register</span>
                   </Link>

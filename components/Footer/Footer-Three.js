@@ -27,8 +27,8 @@ const FooterThree = () => {
                           {isLightTheme ? (
                             <Image
                               src={logo}
-                              width={152}
-                              height={50}
+                              width={"100%"}
+                              height={"100%"}
                               priority={true}
                               alt="Education Logo Images"
                             />

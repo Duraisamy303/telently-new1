@@ -360,15 +360,15 @@ const LanguageAcademy = () => {
 
       <div className="rbt-counterup-area rbt-section-gapBottom bg-gradient-5  ">
         <div className="container">
-          <div className="row mb--60 ">
+          <div className="row mb--50 ">
             <div className="col-lg-12">
               <div className="section-title text-center">
-                <span className="subtitle bg-primary-opacity mt--60">
+                <span className="subtitle bg-primary-opacity mt--50">
                   PHASELLUS AUGUE
                 </span>
                 <div>
-                  <h2 className="title">Shaping Careers and Connecting </h2>
-                  <h2 className="title">Top Talent Since 2010</h2>
+                  <h2 className="title " style={{fontWeight:"normal"}} >Shaping Careers and Connecting </h2>
+                  <h2 className="title" style={{fontWeight:"normal"}}>Top Talent Since 2010</h2>
                 </div>
                 <p className="description has-medium-font-size mt--20 mb--0">
                   There are many variations of passages of Lorem Ipsum
@@ -382,15 +382,15 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className="rbt-counterup-area rbt-section-gapBottom  ">
+      <div className="rbt-counterup-area rbt-section-gapBottom" >
         <div className="container">
-          <div className="row mb--60 ">
+          <div className="row mb--50 ">
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity mt--60">
                   ALIQUAM VEL
                 </span>
-                <h2 className="title">Our Brands</h2>
+                <h2 className="title" style={{fontWeight:"normal"}}>Our Brands</h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p> */}
@@ -412,8 +412,8 @@ const LanguageAcademy = () => {
                   <span className="subtitle bg-secondary-opacity-new mt--60">
                     VULPUTATE
                   </span>
-                  <h2 className="title color-white">
-                    Recogniions and Accreditations
+                  <h2 className="title color-white" style={{fontWeight:"normal"}}>
+                    Recognions and Accreditations
                   </h2>
                   {/* <p className="description has-medium-font-size mt--20 mb--0">
                     Language Academic?
@@ -455,7 +455,7 @@ const LanguageAcademy = () => {
                 <span className="subtitle bg-primary-opacity ">
                   duis lectus
                 </span>
-                <h2 className="title">Our Academic Partners</h2>
+                <h2 className="title" style={{fontWeight:"normal"}}>Our Academic Partners</h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p> */}
@@ -473,8 +473,8 @@ const LanguageAcademy = () => {
                 <span className="subtitle bg-primary-opacity">
                   VEHICULA LABORTIS
                 </span>
-                <h2 className="title">2500+ Companies Hire our</h2>
-                <h2 className="title"> Pre-trained Candidates </h2>
+                <h2 className="title" style={{fontWeight:"normal"}}>2500+ Companies Hire our</h2>
+                <h2 className="title" style={{fontWeight:"normal"}}> Pre-trained Candidates </h2>
 
                 <p className="description has-medium-font-size mt--20 mb--0">
                   Master Python by building 100 projects in 100 days. Learn data

@@ -72,6 +72,16 @@
     }
 }
 
+.rbt-section-gap2Bottom-new {
+    padding-bottom: 80px !important;
+    @media #{$md-layout} {
+        padding-bottom: 80px;
+    }
+    @media #{$sm-layout} {
+        padding-bottom: 80px;
+    }
+}
+
 .rbt-section-gapTop {
     padding-top: 120px;
     @media #{$md-layout} {

@@ -14,7 +14,7 @@ const CallToActionSix = () => {
             <div className="col-xxl-3 col-xl-3 col-lg-6">
               <div className="inner">
                 <div className="content text-start">
-                  <h2 className="title color-white mb--0">Hire From Us</h2>
+                  <h2 className="title color-white mb--0" style={{fontWeight:"normal"}}>Hire From Us</h2>
                 </div>
               </div>
             </div>
@@ -25,9 +25,11 @@ const CallToActionSix = () => {
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-6">
               <div className="call-to-btn text-start text-xl-end">
-                <Link className="rbt-btn btn-white hover-icon-reverse" href="#">
+                <Link className="rbt-btn btn-white hover-icon-reverse" href="#" style={{
+                  padding:"0px 30px",height:"54px",lineHeight:"55px",fontSize:"14px"
+                }}>
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Know More</span>
+                    <span className="btn-text" >Know More</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>

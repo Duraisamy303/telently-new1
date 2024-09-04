@@ -19,7 +19,7 @@ export default function SingleCourseProp({data }) {
               />
             </div>
             <div className="content">
-              <h2 className="title ">{data?.content1?.title}</h2>
+              <h2 className="title" >{data?.content1?.title}</h2>
               <p>{data?.content1?.desc}</p>
               <ul className="course-feature-list ">
                 {data?.content1?.imgs?.map((list, i) => (
@@ -27,8 +27,8 @@ export default function SingleCourseProp({data }) {
                     <div className="flex flex-start">
                       <Image
                         src={list}
-                        width={120}
-                        height={120}
+                        width={"100%"}
+                        height={'100%'}
                         alt="Icon Image"
                       />
                     </div>
