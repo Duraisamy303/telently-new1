@@ -176,8 +176,8 @@ const LanguageAcademy = () => {
   const courseData = {
     content1: {
       img: recognize1,
-      title: `As a trusted leader in the industry, we continuously strive for excellence`,
-      desc: "Our global recognition validates our commitment to sustaining standards in imparting education.",
+      title: `As a trusted leader in the industry`,
+      desc: "we continuously strive for excellence - Our global recognition validates our commitment to sustaining standards in imparting education.",
       imgs: [
         containerLogo1,
         containerLogo2,
@@ -380,7 +380,7 @@ const LanguageAcademy = () => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity">
-                  PHASELLUS AUGUE
+                  Empowering Talent, Building Futures
                 </span>
                 <div>
                   <h2
@@ -391,7 +391,9 @@ const LanguageAcademy = () => {
                       lineHeight: "52px",
                     }}
                   >
-                   Empowering Talent, Building Futures
+                    Shaping Careers and Connecting
+                    <br />
+                    Top Talent Since 2010
                   </h2>
                 </div>
                 <p
@@ -402,7 +404,9 @@ const LanguageAcademy = () => {
                     color: "black",
                   }}
                 >
-                  We are at the forefront of shaping careers and connecting top talent with leading companies, helping countless professionals and businesses thrive in a competitive world
+                  We are at the forefront of shaping careers and connecting top
+                  talent with leading companies, helping countless professionals
+                  and businesses thrive in a competitive world
                 </p>
               </div>
             </div>
@@ -416,12 +420,15 @@ const LanguageAcademy = () => {
           <div className="row mb--20 ">
             <div className="col-lg-12">
               <div className="section-title text-center">
-                <span className="subtitle bg-primary-opacity">ALIQUAM VEL</span>
+                <span className="subtitle bg-primary-opacity">
+                  {" "}
+                  Working in synergy to drive growth
+                </span>
                 <h2
                   className="title"
                   style={{ fontWeight: "500", fontSize: "38px" }}
                 >
-                  Working in synergy to drive growth
+                  Our Brands
                 </h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
@@ -448,7 +455,7 @@ const LanguageAcademy = () => {
                   }}
                 >
                   <span className="subtitle bg-secondary-opacity-new">
-                    VULPUTATE
+                    Accredited for sustaining global standards
                   </span>
                   <h2
                     className="title color-white"
@@ -500,13 +507,13 @@ const LanguageAcademy = () => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity ">
-                  duis lectus
+                  Strong alliances to empower learning
                 </span>
                 <h2
                   className="title"
                   style={{ fontWeight: "500", fontSize: "38px" }}
                 >
-                  Strong alliances to empower learning
+                  Our Academic Partners
                 </h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
@@ -523,13 +530,15 @@ const LanguageAcademy = () => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity">
-                  VEHICULA LABORTIS
+                  Industry-ready talent ideal for all sectors
                 </span>
                 <h2
                   className="title"
                   style={{ fontWeight: "500", fontSize: "38px" }}
                 >
-                  Industry-ready talent ideal for all sectors
+                  2500+ Companies Hire our
+                  <br />
+                  Pre-trained Candidates
                 </h2>
                 <p
                   className="description has-medium-font-size mt--20 mb--0"
@@ -539,7 +548,8 @@ const LanguageAcademy = () => {
                     color: "black",
                   }}
                 >
-                 Our students are equipped with the expertise and skillsets required to thrive in today’s competitive work environments.
+                  Our students are equipped with the expertise and skillsets
+                  required to thrive in today’s competitive work environments.
                 </p>
               </div>
             </div>
