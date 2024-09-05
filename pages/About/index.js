@@ -44,7 +44,7 @@ const AboutUsPage = () => {
           >
             <Banner />
           </div> */}
-          <div className="rbt-about-area about-style-1 bg-color-white" style={{paddingTop:"80px"}}>
+          <div className="rbt-about-area about-style-1 bg-color-white pt--100">
             <ParallaxProvider>
               <About />
             </ParallaxProvider>

@@ -9,7 +9,7 @@ import videoImg from "../../public/images/others/aboutGlobe.webp";
 const AdmissionArea = () => {
   return (
     <>
-      <div className="row g-5">
+      <div className="row g-5 align-items-center">
         <div
           className="col-lg-6"
           style={{
