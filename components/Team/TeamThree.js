@@ -11,7 +11,7 @@ const TeamThree = () => {
     <>
       <div className="container">
         {/* <TeamHead title="Team (Modern)." desc="Modern Circle Style." /> */}
-        <h3 className="title text-center mb--30" style={{fontWeight:"normal"}} >
+        <h3 className="title text-center mb--20" style={{fontWeight:"normal"}} >
           Recruit for a Wide Range of Skillsets
         </h3>
         <div className="row row--15">

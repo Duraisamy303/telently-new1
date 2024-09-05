@@ -65,7 +65,7 @@ const ContactForm = ({ gap }) => {
               <div className="section-title text-start">
                 <span className="subtitle bg-primary-opacity">EDUCATION FOR EVERYONE</span>
               </div>
-              <h3 className="title" style={{fontWeight:"normal"}}>Hire with Talentely</h3>
+              <h3 className="title" style={{fontWeight:"500",fontSize:"38px"}}>Hire with Talentely</h3>
               <form onSubmit={handleSubmit} className="rainbow-dynamic-form max-width-auto">
                 <div className="form-group">
                   <input
