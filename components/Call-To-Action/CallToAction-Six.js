@@ -8,7 +8,7 @@ const CallToActionSix = () => {
       {/* {CallToActionData &&
         CallToActionData.collectionSix.map((data, index) => ( */}
       <div
-        className="row g-5  content-wrapper"
+        className="row g-5  content-wrapper align-items-center"
         // key={index}
       >
         {/* <div className="col-xxl-3 col-xl-3 col-lg-6"> */}
@@ -33,7 +33,7 @@ const CallToActionSix = () => {
 
         <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div className="inner-content text-start ">
-                <h3 className="title color-white" >4500+ Trained Developers Available</h3>
+                <h3 className="title color-white" style={{fontWeight:"500", marginBottom:"0px"}}>4500+ Trained Developers Available</h3>
                 {/* <h4 className="color-white">{data.desc}</h4> */}
               </div>
             </div>
