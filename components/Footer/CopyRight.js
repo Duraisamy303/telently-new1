@@ -10,9 +10,14 @@ const CopyRight = () => {
           <div className="row align-items-center">
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <p className="rbt-link-hover text-center text-lg-start">
-                Copyright © 2024{" "}
-                <sapn style={{ color: "#4E4994", fontWeight: "normal" }}>Talently</sapn>.
-                Concept by Repute
+                Copyright © 2024 <sapn>Talentely</sapn>. Concept by{" "}
+                <Link
+                  href="https://irepute.in/"
+                  target="_blank"
+                  style={{ color: "#4E4994", fontWeight: "normal" }}
+                >
+                  repute
+                </Link>
               </p>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">

@@ -90,22 +90,22 @@ const LanguageAcademy = () => {
       discount: "-40% Off",
       lession: 12,
       students: 50,
-      title: "Reskill and stay ahead of the curve",
+      title: "Stay competitive",
       content: "",
       rating: 5,
       review: 15,
-      desc: "Future-proof your career with cutting-edge courses to keep you competitive in today’s evolving job market, with live projects and career support.",
+      desc: "Future-proof your career with cutting-edge courses and stay competitive to meet evolving job market needs",
     },
     {
       logo: "/images/banner/banner-img-2.jpg",
       discount: "-40% Off",
       lession: 12,
       students: 50,
-      title: "Courses tailored for freshers and experienced professionals",
+      title: "Tailored courses",
       content: "",
       rating: 5,
       review: 15,
-      desc: "We provide courses for both beginners and experienced professionals along with the right tools, enabling you to achieve career success.",
+      desc: "We provide courses for both beginners and experienced professionals to achieve career success.",
     },
   ];
 
@@ -201,19 +201,19 @@ const LanguageAcademy = () => {
       desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
       subContent: [
         {
-          text: "Ecommerce Website",
+          text: "Cras ornare tristique",
         },
         {
-          text: "Travel Agency",
+          text: "Lorem ipsum",
         },
         {
-          text: "Shopping Cart",
+          text: "Vestibulum commodo",
         },
         {
-          text: "News Portal",
+          text: "Aliquam tincidunt",
         },
         {
-          text: "Education Management",
+          text: "Integer vitae libero",
         },
       ],
     },
