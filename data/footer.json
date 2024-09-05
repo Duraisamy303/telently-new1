@@ -17,13 +17,14 @@
         {
           "text": "Contact Us",
           "link": "/contact"
-        }
-      ],
-      "ourCompany": [
+        },
         {
           "text": "Careers",
           "link": "/"
-        },
+        }
+      ],
+      "ourCompany": [
+        
         {
           "text": "Become Teacher",
           "link": "/"

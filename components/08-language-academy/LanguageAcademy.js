@@ -69,6 +69,10 @@ import aca_1 from "../../public/images/scroll/log-1.png";
 import aca_2 from "../../public/images/scroll/log-2.png";
 import aca_3 from "../../public/images/scroll/log-3.png";
 import aca_4 from "../../public/images/scroll/log-4.png";
+import aca_5 from "../../public/images/scroll/log-1.png";
+import aca_6 from "../../public/images/scroll/log-2.png";
+import aca_7 from "../../public/images/scroll/log-3.png";
+import aca_8 from "../../public/images/scroll/log-4.png";
 import { companies } from "@/utils.js/constant.utils";
 
 const LanguageAcademy = () => {
@@ -215,7 +219,7 @@ const LanguageAcademy = () => {
     },
   };
 
-  const academic = [aca_1, aca_2, aca_3, aca_4];
+  const academic = [aca_1, aca_2, aca_3, aca_4, aca_5, aca_6, aca_7, aca_8];
   return (
     <>
       <div className="rbt-banner-area rbt-banner-7 bg-gradient-1 theme-shape header-transperent-spacer">
