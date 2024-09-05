@@ -20,9 +20,7 @@ const CallToActionSix = () => {
             </div> */}
             <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div className="inner-content text-start">
-                <h3 className="color-white" style={{ fontWeight: "normal" }}>
-                  {data.desc}
-                </h3>
+                <h3 className="color-white" style={{fontWeight:"500", marginBottom:"0px"}}>{data.desc}</h3>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6">

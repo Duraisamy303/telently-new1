@@ -28,7 +28,7 @@ const About = () => {
   return (
     <div className="container">
       {AboutData.aboutOne.map((data, index) => (
-        <div className="row g-5 align-items-center" key={index}>
+        <div className="row g-5" key={index}>
           <div className="col-lg-6">
             <div className="thumbnail-wrapper">
               <div className={`thumbnail image-1`} ref={ref1} style={style1}>

@@ -77,7 +77,7 @@ const CounterThree = () => {
                           </span>{" "}
                           <span style={{fontSize:"22px"}}> {item.unit}</span>
                         </h3>
-                        <span className="subtitle" dangerouslySetInnerHTML={{ __html: item.title }}></span>
+                        <span className="subtitle" dangerouslySetInnerHTML={{ __html: item.text }} style={{fontSize:"14px", color:"black"}}></span>
                       </div>
                     </div>
                   </div>
