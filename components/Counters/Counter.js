@@ -55,7 +55,7 @@ const Counter = ({ isDesc, head,data }) => {
                       </div> */}
                       <div className="content">
                         <h3 className="counter">
-                          <span className="odometer">
+                          <span className="odometer" style={{fontWeight:"700 !important"}}>
                             <Odometer
                               value={
                                 values[index * data.body.length + innerIndex]
@@ -63,7 +63,7 @@ const Counter = ({ isDesc, head,data }) => {
                             />
                           </span>
                         </h3>
-                        <span className="subtitle">{item.text}</span>
+                        <span className="subtitle" style={{color:"black", fontSize:"16px"}}>{item.text}</span>
                       </div>
                     </div>
                   </div>

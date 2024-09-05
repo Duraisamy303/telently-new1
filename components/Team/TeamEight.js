@@ -11,7 +11,7 @@ const TeamEight = ({ head ,data}) => {
   return (
     <>
       <div className="container">
-        <div className="row row--15 mt--20">
+        <div className="row row--15">
           <div className="col-lg-12 pr--60 pl--60">
             <div style={{ position: "relative" }}>
               <Swiper
@@ -48,7 +48,7 @@ const TeamEight = ({ head ,data}) => {
                           className="swiper-slide"
                           key={index}
                           style={{
-                            border: "1px solid #ddd",
+                            border: "1px solid #b4b7bc",
                             display: "flex",
                             flexDirection: "column",
                             alignItems: "center",

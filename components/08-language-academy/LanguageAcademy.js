@@ -222,8 +222,11 @@ const LanguageAcademy = () => {
         <div className="wrapper w-100">
           <div className="container">
             <div className="row g-5 justify-content-between align-items-center">
-              <div className="col-lg-5 order-2 order-lg-1">
-                <div className="content">
+              <div className="col-lg-6 order-2 order-lg-1">
+                <div
+                  className="content"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
                   <div className="inner">
                     <div className="section-title text-start">
                       <span className="subtitle bg-primary-opacity">
@@ -231,14 +234,11 @@ const LanguageAcademy = () => {
                       </span>
                     </div>
 
-                    <h3
-                      className="title"
-                      style={{ fontSize: "38px", fontWeight: "normal" }}
-                    >
+                    <h3 className="title">
                       Access Top Talent,
                       <br />
-                      <span className="theme-gradient"> No Costs,</span>
-                      & Accelerate
+                      <span className="theme-gradient"> No Costs</span>
+                      {""} & Accelerate
                       <br />
                       <span> Recruitment Cycles</span>
                     </h3>
@@ -297,14 +297,22 @@ const LanguageAcademy = () => {
                       <Link
                         className="rbt-btn btn-gradient rbt-switch-btn"
                         href="#"
-                        style={{height:"53px",lineHeight:"53px",fontSize:"14px"}}
+                        style={{
+                          height: "53px",
+                          lineHeight: "53px",
+                          fontSize: "14px",
+                        }}
                       >
                         <span data-text="Sign Up Now">Sign Up Now</span>
                       </Link>
                       <Link
                         className="rbt-btn btn-border rbt-switch-btn"
                         href="#"
-                        style={{height:"53px",lineHeight:"53px",fontSize:"14px"}}
+                        style={{
+                          height: "53px",
+                          lineHeight: "53px",
+                          fontSize: "14px",
+                        }}
                       >
                         <span data-text="Find Courses">Find Courses</span>
                       </Link>
@@ -312,7 +320,7 @@ const LanguageAcademy = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-7 order-1 order-lg-2">
+              <div className="col-lg-6 order-1 order-lg-2">
                 <div className="row g-5">
                   <Card
                     col="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
@@ -337,12 +345,14 @@ const LanguageAcademy = () => {
           </div>
         </div>
       </div> */}
-     <div className="rbt-brand-area bg-color-white ptb--60">
+      <div className="rbt-brand-area bg-color-white ptb--60">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-10 offset-lg-1">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-10">
               <BrandThree data={alumini} />
             </div>
+            <div className="col-lg-1"></div>
           </div>
         </div>
       </div>
@@ -351,26 +361,44 @@ const LanguageAcademy = () => {
       <div className="rbt-brand-area bg-color-white ptb--60">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-10 offset-lg-1">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-10">
               <BrandThree data={recognize} />
             </div>
+            <div className="col-lg-1"></div>
           </div>
         </div>
       </div>
 
-      <div className="rbt-counterup-area rbt-section-gapBottom bg-gradient-5 ">
+      <div className="rbt-counterup-area ptb--60 bg-theme-lightblue ">
         <div className="container">
           <div className="row mb--50 ">
             <div className="col-lg-12">
               <div className="section-title text-center">
-                <span className="subtitle bg-primary-opacity mt--50">
+                <span className="subtitle bg-primary-opacity">
                   PHASELLUS AUGUE
                 </span>
                 <div>
-                  <h2 className="title " style={{fontWeight:"normal"}} >Shaping Careers and Connecting </h2>
-                  <h2 className="title" style={{fontWeight:"normal"}}>Top Talent Since 2010</h2>
+                  <h2
+                    className="title "
+                    style={{
+                      fontWeight: "500",
+                      fontSize: "38px",
+                      lineHeight: "52px",
+                    }}
+                  >
+                    Shaping Careers and Connecting <br />
+                    Top Talent Since 2010
+                  </h2>
                 </div>
-                <p className="description has-medium-font-size mt--20 mb--0">
+                <p
+                  className="description has-medium-font-size mt--20 mb--0"
+                  style={{
+                    fontSize: "18px",
+                    lineHeight: "28px",
+                    color: "black",
+                  }}
+                >
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour
@@ -382,37 +410,49 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className="rbt-counterup-area rbt-section-gapBottom"  style={{paddingBottom:"60px"}}>
+      <div className="rbt-counterup-area ptb--60 bg-color-white ">
         <div className="container">
-          <div className="row mb--50 ">
+          <div className="row mb--20 ">
             <div className="col-lg-12">
               <div className="section-title text-center">
-                <span className="subtitle bg-primary-opacity mt--60">
-                  ALIQUAM VEL
-                </span>
-                <h2 className="title" style={{fontWeight:"normal"}}>Our Brands</h2>
+                <span className="subtitle bg-primary-opacity">ALIQUAM VEL</span>
+                <h2
+                  className="title"
+                  style={{ fontWeight: "500", fontSize: "38px" }}
+                >
+                  Our Brands
+                </h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p> */}
               </div>
             </div>
           </div>
-          <div className="row  mt--30 rbt-brand-area bg-color-white ">
+          <div className="row rbt-brand-area bg-color-white ">
             <CategoryOne data={brand} />
           </div>
         </div>
       </div>
       {/* [#37A282] */}
-      <div className="rbt-course-banner-area bg-color-green">
+      <div className="rbt-course-banner-area bg-color-green ptb--60">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="inner">
-                <div className="section-title text-center">
-                  <span className="subtitle bg-secondary-opacity-new mt--60">
+                <div
+                  className="section-title text-center"
+                  style={{
+                    borderBottom: "1px solid #646da8",
+                    marginBottom: "3px",
+                  }}
+                >
+                  <span className="subtitle bg-secondary-opacity-new">
                     VULPUTATE
                   </span>
-                  <h2 className="title color-white" style={{fontWeight:"normal"}}>
+                  <h2
+                    className="title color-white"
+                    style={{ fontWeight: "500", fontSize: "38px" }}
+                  >
                     Recognions and Accreditations
                   </h2>
                   {/* <p className="description has-medium-font-size mt--20 mb--0">
@@ -421,7 +461,11 @@ const LanguageAcademy = () => {
                   <Link
                     className="rbt-btn hover-icon-reverse btn-border color-white-off mt--30 mb--30"
                     href="#"
-                    style={{padding:"0px 22px",lineHeight:"53px",height:"53px"}}
+                    style={{
+                      padding: "0px 22px",
+                      lineHeight: "53px",
+                      height: "53px",
+                    }}
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Know More</span>
@@ -448,15 +492,20 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className=" bg-grey rbt-section-gap-own" style={{padding:"60px"}}>
+      <div className=" bg-grey rbt-section-gap-own ptb--60">
         <div className="container">
-          <div className="row  ">
+          <div className="row  mb--40 ">
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity ">
                   duis lectus
                 </span>
-                <h2 className="title" style={{fontWeight:"normal"}}>Our Academic Partners</h2>
+                <h2
+                  className="title"
+                  style={{ fontWeight: "500", fontSize: "38px" }}
+                >
+                  Our Academic Partners
+                </h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p> */}
@@ -466,18 +515,30 @@ const LanguageAcademy = () => {
         </div>
         <TeamEight head={false} data={academic} />
       </div>
-      <div>
+      <div className="bg-color-white rbt-section-gap-own ptb--60">
         <div className="container">
-          <div className="row mt--60 mb--60">
+          <div className="row ">
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity">
                   VEHICULA LABORTIS
                 </span>
-                <h2 className="title" style={{fontWeight:"normal"}}>2500+ Companies Hire our</h2>
-                <h2 className="title" style={{fontWeight:"normal"}}> Pre-trained Candidates </h2>
-
-                <p className="description has-medium-font-size mt--20 mb--0">
+                <h2
+                  className="title"
+                  style={{ fontWeight: "500", fontSize: "38px" }}
+                >
+                  2500+ Companies Hire our
+                  <br />
+                  Pre-trained Candidates{" "}
+                </h2>
+                <p
+                  className="description has-medium-font-size mt--20 mb--0"
+                  style={{
+                    fontSize: "18px",
+                    lineHeight: "28px",
+                    color: "black",
+                  }}
+                >
                   Master Python by building 100 projects in 100 days. Learn data
                   science, automation, build websites, games and apps
                 </p>
@@ -488,7 +549,10 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own" style={{padding:"60px"}}>
+      <div
+        className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own"
+        style={{ padding: "60px" }}
+      >
         <CallToActionSix />
       </div>
     </>

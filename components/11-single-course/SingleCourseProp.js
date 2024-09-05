@@ -19,11 +19,11 @@ export default function SingleCourseProp({data }) {
               />
             </div>
             <div className="content">
-              <h2 className="title" style={{fontWeight:"normal"}}>{data?.content1?.title}</h2>
+              <h2 className="title" style={{fontWeight:"600"}}>{data?.content1?.title}</h2>
               <p>{data?.content1?.desc}</p>
               <ul className="course-feature-list ">
                 {data?.content1?.imgs?.map((list, i) => (
-                  <li key={i}>
+                  <li key={i} style={{padding:"10px 20px 30px 20px"}}>
                     <div className="flex flex-start">
                       <Image
                         src={list}
@@ -58,7 +58,7 @@ export default function SingleCourseProp({data }) {
               />
             </div>
             <div className="content">
-              <h2 className="title" style={{fontWeight:"normal"}}>{data?.content2.title}</h2>
+              <h2 className="title" style={{fontWeight:"600"}}>{data?.content2.title}</h2>
               <p>{data?.content2.desc}</p>
             </div>
           </div>
@@ -79,13 +79,13 @@ export default function SingleCourseProp({data }) {
             </div>
             {/* <CourseSlider {...data.container3} course={data.container3.img} /> */}
             <div className="content">
-              <h2 className="title" style={{fontWeight:"normal"}}>{data.content3.title}</h2>
-              <p>{data.content3.desc}</p>
+              <h2 className="title" style={{fontWeight:"600", marginTop:"0px"}}>{data.content3.title}</h2>
+              <p style={{marginBottom:"20px"}}>{data.content3.desc}</p>
               <ul className="rbt-list-style-2-new flex-wrap g-1 mb-40">
                 {data.content3.subContent.map((innerData, i) => (
-                  <li key={i} className="flex ">
+                  <li key={i} style={{display:"flex", alignItems:"center"}}>
                     <i className="feather-check"></i>
-                    <p>{innerData.text}</p>
+                    <p style={{fontSize:"14px"}}>{innerData.text}</p>
                   </li>
                 ))}
               </ul>

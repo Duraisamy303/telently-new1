@@ -361,6 +361,7 @@
     background: var(--gradient-5) !important;
 }
 
+
 .bg-gradient-6 {
     background: var(--gradient-6) !important;
 }
@@ -378,7 +379,9 @@
     @extend %bg-gradient-9;
 }
 
-
+.bg-theme-lightblue {
+ background-color: #f3f7ff !important;
+}
 
 .bg-gradient-10 {
     background: linear-gradient(141.76deg, #F5D9D5 0.59%, #F5EAB4 39.43%, #B76CEA 100%) !important;

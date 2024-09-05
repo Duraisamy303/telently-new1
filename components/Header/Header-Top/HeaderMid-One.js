@@ -38,7 +38,7 @@ const HeaderMidOne = ({
   return (
     <>
       <div
-        className={`rbt-header-middle position-relative rbt-header-mid-1 ${gapSpaceBetween} ${bgColor} d-none d-xl-block`}
+        className={`rbt-header-middle position-relative rbt-header-mid-1 container ${bgColor} d-none d-xl-block`}
       >
         <div className={`${container}`}>
           <div className={`rbt-header-sec align-items-center ${flexDirection}`}>

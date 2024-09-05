@@ -33,7 +33,6 @@ const HeaderStyleThree = ({ headerSticky }) => {
           headerSticky={headerSticky}
           sticky="header-sticky"
           container="container-fluid"
-          gapSpaceBetween="header-space-betwween"
           navigationEnd="rbt-navigation-center"
         />
       </header>
