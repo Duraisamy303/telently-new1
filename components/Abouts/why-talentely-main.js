@@ -56,7 +56,7 @@ const WhyTalentely = () => {
             <div className="inner pl--50 pl_sm--0 pl_md--0">
               <div className="section-title text-start">
                 <span className="subtitle bg-coral-opacity">{data.tag}</span>
-                <h2 className="title">
+                <h2 className="title" >
                   {data.title} <br /> {data.subTitle}
                 </h2>
               </div>
