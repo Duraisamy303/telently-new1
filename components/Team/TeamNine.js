@@ -11,7 +11,7 @@ const TeamNine = () => {
   return (
     <>
       <div className="container">
-        <h2 className="title text-center mb--20" style={{fontWeight:"normal"}}>Benefits</h2>
+        <h2 className="title text-center mb--10" style={{fontWeight:500,fontSize:"38px"}}>Benefits</h2>
         <div className="row">
           <div className="col-lg-12">
             <Swiper

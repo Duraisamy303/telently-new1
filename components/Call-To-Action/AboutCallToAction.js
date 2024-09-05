@@ -20,14 +20,22 @@ const CallToActionSix = () => {
             </div> */}
             <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div className="inner-content text-start">
-                <h3 className="color-white" style={{fontWeight:"normal"}}>{data.desc}</h3>
+                <h3 className="color-white" style={{ fontWeight: "normal" }}>
+                  {data.desc}
+                </h3>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div className="call-to-btn text-start text-xl-end">
-              
-
-                <Link className="rbt-btn btn-white hover-icon-reverse" href="#"    style={{padding:"0px 22px",lineHeight:"53px",height:"53px"}}>
+                <Link
+                  className="rbt-btn btn-white hover-icon-reverse"
+                  href="#"
+                  style={{
+                    padding: "0px 22px",
+                    lineHeight: "53px",
+                    height: "53px",
+                  }}
+                >
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">Join Now </span>
                     <span className="btn-icon">

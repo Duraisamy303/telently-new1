@@ -20,7 +20,7 @@ const WhyTalentelyCallToAction = () => {
             </div> */}
             <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div className="inner-content text-start ">
-                <h3 className="title color-white" style={{fontWeight:"normal",paddingTop:"15px"}}>{`${data.desc}`}</h3>
+                <h3 className="title color-white" style={{paddingTop:"15px"}}>{`${data.desc}`}</h3>
                 {/* <h4 className="color-white">{data.desc}</h4> */}
               </div>
             </div>

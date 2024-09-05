@@ -38,7 +38,7 @@ const WhyTAlentely = () => {
             </div>
           </div>
 
-          <div className="rbt-team-area bg-color-white rbt-section-gapBottom">
+          <div className="rbt-team-area bg-color-white rbt-section-gap2Bottom-new ">
             <TeamNine />
           </div>
 
