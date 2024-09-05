@@ -3,7 +3,7 @@
     {
       "description": " We’re always in search for talented and motivated people.Don’t be shy introduce yourself!",
       "phone": "(406) 555-0120",
-      "mail": "example@gmail.com",
+      "mail": "support@talentely.com",
       "address": "Dui gravida ut viverra montes primis aliquam.",
       "usefulLinks": [
         {
@@ -57,7 +57,7 @@
         },
         {
           "icon": "feather-linkedin",
-          "link": "https://www.linkdin.com/"
+          "link": "https://www.linkedin.com/"
         }
       ]
     }

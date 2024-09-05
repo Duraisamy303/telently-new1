@@ -10,7 +10,7 @@ const SingleFooter = ({ classOne, title, footerType }) => {
         <ul className="ft-link">
           {footerType.map((value, innerIndex) => (
             <li key={innerIndex}>
-              <Link href={value.link}>{value.text}</Link>
+              <Link href={"#"}>{value.text}</Link>
             </li>
           ))}
         </ul>

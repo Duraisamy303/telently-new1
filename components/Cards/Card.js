@@ -18,7 +18,7 @@ const Card = ({ start, end, col, mt, isDesc, isUser,data }) => {
           >
             <div className="rbt-card variation-01 rbt-hover">
               <div className="rbt-card-img">
-                <Link href={`/course-details/${data.id}`}>
+                <Link href={`#`}>
                   <Image
                     src={data.logo}
                     width={355}
@@ -46,7 +46,7 @@ const Card = ({ start, end, col, mt, isDesc, isUser,data }) => {
                   </li>
                 </ul>
                 <h4 className="rbt-card-title" style={{fontWeight:"normal"}}>
-                  <Link href={`/course-details/${data.id}`}>
+                  <Link href={`#`}>
                     {data.title}
                   </Link>
                 </h4>

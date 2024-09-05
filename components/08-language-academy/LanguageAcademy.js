@@ -90,22 +90,22 @@ const LanguageAcademy = () => {
       discount: "-40% Off",
       lession: 12,
       students: 50,
-      title: "Quisque",
+      title: "Reskill and stay ahead of the curve",
       content: "",
       rating: 5,
       review: 15,
-      desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+      desc: "Future-proof your career with cutting-edge courses to keep you competitive in today’s evolving job market, with live projects and career support.",
     },
     {
       logo: "/images/banner/banner-img-2.jpg",
       discount: "-40% Off",
       lession: 12,
       students: 50,
-      title: "Consequat",
+      title: "Courses tailored for freshers and experienced professionals",
       content: "",
       rating: 5,
       review: 15,
-      desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+      desc: "We provide courses for both beginners and experienced professionals along with the right tools, enabling you to achieve career success.",
     },
   ];
 
@@ -176,8 +176,8 @@ const LanguageAcademy = () => {
   const courseData = {
     content1: {
       img: recognize1,
-      title: `Turpis lectus risus odio ${"\n"}maximus,tortor ligula mi.`,
-      desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+      title: `As a trusted leader in the industry, we continuously strive for excellence`,
+      desc: "Our global recognition validates our commitment to sustaining standards in imparting education.",
       imgs: [
         containerLogo1,
         containerLogo2,
@@ -193,7 +193,7 @@ const LanguageAcademy = () => {
     content2: {
       img: recognize2,
       title: `Awards`,
-      desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+      desc: "We've been honoured with numerous awards for our commitment to innovation and for consistently delivering outstanding results.",
     },
     content3: {
       img: recognize3,
@@ -391,8 +391,7 @@ const LanguageAcademy = () => {
                       lineHeight: "52px",
                     }}
                   >
-                    Shaping Careers and Connecting <br />
-                    Top Talent Since 2010
+                   Empowering Talent, Building Futures
                   </h2>
                 </div>
                 <p
@@ -403,9 +402,7 @@ const LanguageAcademy = () => {
                     color: "black",
                   }}
                 >
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour
+                  We are at the forefront of shaping careers and connecting top talent with leading companies, helping countless professionals and businesses thrive in a competitive world
                 </p>
               </div>
             </div>
@@ -424,7 +421,7 @@ const LanguageAcademy = () => {
                   className="title"
                   style={{ fontWeight: "500", fontSize: "38px" }}
                 >
-                  Our Brands
+                  Working in synergy to drive growth
                 </h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
@@ -457,7 +454,8 @@ const LanguageAcademy = () => {
                     className="title color-white"
                     style={{ fontWeight: "500", fontSize: "38px" }}
                   >
-                    Recognions and Accreditations
+                    {/* Recognions and Accreditations */}
+                    Recognitions and Accreditations
                   </h2>
                   {/* <p className="description has-medium-font-size mt--20 mb--0">
                     Language Academic?
@@ -508,7 +506,7 @@ const LanguageAcademy = () => {
                   className="title"
                   style={{ fontWeight: "500", fontSize: "38px" }}
                 >
-                  Our Academic Partners
+                  Strong alliances to empower learning
                 </h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
@@ -531,9 +529,7 @@ const LanguageAcademy = () => {
                   className="title"
                   style={{ fontWeight: "500", fontSize: "38px" }}
                 >
-                  2500+ Companies Hire our
-                  <br />
-                  Pre-trained Candidates{" "}
+                  Industry-ready talent ideal for all sectors
                 </h2>
                 <p
                   className="description has-medium-font-size mt--20 mb--0"
@@ -543,8 +539,7 @@ const LanguageAcademy = () => {
                     color: "black",
                   }}
                 >
-                  Master Python by building 100 projects in 100 days. Learn data
-                  science, automation, build websites, games and apps
+                 Our students are equipped with the expertise and skillsets required to thrive in today’s competitive work environments.
                 </p>
               </div>
             </div>

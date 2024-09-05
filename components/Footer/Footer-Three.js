@@ -92,7 +92,7 @@ const FooterThree = () => {
                         </li>
                         <li>
                           <span>E-mail:</span>{" "}
-                          <Link href="mailto:example@gmail.com">
+                          <Link href="mailto:support@talentely.com">
                             {footer.mail}
                           </Link>
                         </li>
