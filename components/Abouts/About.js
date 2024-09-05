@@ -66,14 +66,14 @@ const About = () => {
                       {data.tag}
                       </span>
                     </div>
-                <h2 className="title" style={{fontWeight:"normal"}}>
+                <h2 className="title" style={{fontWeight:"500",fontSize:'38px',lineHeight:"48px"}}>
                    {data.subTitle}
                 </h2>
               </div>
-              <p className="description mt--30">{data.desc}</p>
+              <p className="description mt--10">{data.desc}</p>
               <h4 style={{fontWeight:"normal"}}>Our Core Values</h4>
               {data.children.map((item, innerIndex) => (
-                <div className="rbt-feature-wrapper mt--40" key={innerIndex}>
+                <div className="rbt-feature-wrapper mb--20" key={innerIndex}>
                   <div className="rbt-feature feature-style-1">
                     <div
                       className={`icon ${
