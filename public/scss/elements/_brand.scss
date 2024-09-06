@@ -142,10 +142,10 @@
     flex-wrap: wrap;
     justify-content: center;
     @media #{$md-layout} {
-        justify-content: flex-start !important;
+        justify-content: center !important;
     }
     @media #{$sm-layout} {
-        justify-content: flex-start !important;
+        justify-content: center !important;
     }
     li {
         flex-basis: 16.666%;
@@ -172,11 +172,13 @@
                 max-height:50px;
                 @media #{$md-layout} {
                     max-width: inherit;
-                    max-height: 20px;
+                    max-height: 50px;
+                    margin-bottom: 20px;
                 }
                 @media #{$sm-layout} {
                     max-width: inherit;
-                    max-height: 20px;
+                    max-height: 50px;
+                    margin-bottom: 20px;
                 }
             }
         }

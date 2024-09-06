@@ -355,12 +355,7 @@
             p {
                 color: black;
                /* margin-bottom: 35px;*/
-                @media #{$md-layout} {
-                    margin-bottom: 20px;
-                }
-                @media #{$sm-layout} {
-                    margin-bottom: 20px;
-                }
+              
             }
         }
         ul {
