@@ -53,7 +53,7 @@ const AcademyGalleryOne = () => {
                     </ul>
                   </div>
                 </div>
-                <div>
+                <div className="why-talentely-list-section">
                   <h5 className="mb--20" style={{fontWeight:"normal"}}>360° Profiled Candidates</h5>
                   <div className="plan-offer-list-wrapper">
                     <ul className="plan-offer-list">
@@ -81,7 +81,7 @@ const AcademyGalleryOne = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt--20">
+              <div className="mt--20 why-talentely-list-section" >
                 <h5 className="mb--15" style={{fontWeight:"normal"}}>Pan India Recruitment Support</h5>
                 <div className="plan-offer-list-wrapper">
                   <ul className="plan-offer-list">

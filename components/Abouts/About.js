@@ -66,7 +66,7 @@ const About = () => {
                       {data.tag}
                       </span>
                     </div>
-                <h2 className="title" style={{fontWeight:"500",fontSize:'38px',lineHeight:"48px"}}>
+                <h2 className="title sectionHeading" >
                    {data.subTitle}
                 </h2>
               </div>
