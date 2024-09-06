@@ -6,7 +6,7 @@ const CounterHead = ({ bgClass, tag, title, subTitle, desc, mb }) => {
       <div className="col-lg-12">
         <div className="section-title text-center">
           <span className={`subtitle ${bgClass}`}>{tag}</span>
-          <h2 className="title" style={{ fontWeight: "500", fontSize: "38px" }}>
+          <h2 className="title sectionHeading">
             {title} <br /> {subTitle}
           </h2>
           <p

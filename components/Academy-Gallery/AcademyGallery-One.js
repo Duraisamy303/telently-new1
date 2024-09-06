@@ -21,7 +21,7 @@ const AcademyGalleryOne = () => {
         <div className="col-lg-7">
           <div className="inner pl--50 pl_sm--0 pl_md--0 pl_lg--0">
             <div className="section-title text-start">
-              <h2 className="title" style={{fontWeight:500,fontSize:"38px"}}>Why Talentely?</h2>
+              <h2 className="title sectionHeading" >Why Talentely?</h2>
               <p className="description mt--10">
                 <strong>Talentely integrates</strong> institutions, corporates,
                 and talents, engages students, provides skill insights, offers

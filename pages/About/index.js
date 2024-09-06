@@ -58,8 +58,11 @@ const AboutUsPage = () => {
                     <span className="subtitle bg-primary-opacity">
                       VEHICULA LABORTIS
                     </span>
-                    <h2 className="title" style={{fontWeight:500,fontSize:"38px",lineHeight:"55px"}}>More than 200k users hire faster</h2>
-                    <h2 className="title" style={{fontWeight:500,fontSize:"38px",lineHeight:"50px"}}>with Talentely</h2>
+                    <h2 className="title sectionHeading">
+                      More than 200k users hire faster
+                      <br />
+                      with Talentely
+                    </h2>
 
                     {/* <p className="description has-medium-font-size mt--20 mb--0">
                       Master Python by building 100 projects in 100 days. Learn

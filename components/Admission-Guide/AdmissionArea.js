@@ -24,18 +24,8 @@ const AdmissionArea = () => {
         </div>
         <div className="col-lg-6">
           <div className="addmission-guide-content pl--50 pl_sm--0 pl_md--0 pl_lg--0">
-            <h3
-              className="title"
-              style={{
-                fontWeight: 500,
-                fontSize: "38px",
-                lineHeight: "50px",
-                marginBottom: "10px",
-              }}
-            >
-              Talently Locations
-            </h3>
-            <p style={{ marginBottom: "20px" }}>
+            <h3 className="title sectionHeading">Talently Locations</h3>
+            <p style={{ marginBottom: "20px", marginTop: "10px" }}>
               Primarily located and headquartered in Chennai, India. Talentely
               has grown and expanded to cover the whole India as well as other
               parts of the world. Join our team! Discover

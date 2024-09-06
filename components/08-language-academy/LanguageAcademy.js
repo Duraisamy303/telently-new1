@@ -383,14 +383,7 @@ const LanguageAcademy = () => {
                   Empowering Talent, Building Futures
                 </span>
                 <div>
-                  <h2
-                    className="title "
-                    style={{
-                      fontWeight: "500",
-                      fontSize: "38px",
-                      lineHeight: "52px",
-                    }}
-                  >
+                  <h2 className="title sectionHeading">
                     Shaping Careers and Connecting
                     <br />
                     Top Talent Since 2010
@@ -424,12 +417,7 @@ const LanguageAcademy = () => {
                   {" "}
                   Working in synergy to drive growth
                 </span>
-                <h2
-                  className="title"
-                  style={{ fontWeight: "500", fontSize: "38px" }}
-                >
-                  Our Brands
-                </h2>
+                <h2 className="title sectionHeading">Our Brands</h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p> */}
@@ -457,10 +445,7 @@ const LanguageAcademy = () => {
                   <span className="subtitle bg-secondary-opacity-new">
                     Accredited for sustaining global standards
                   </span>
-                  <h2
-                    className="title color-white"
-                    style={{ fontWeight: "500", fontSize: "38px" }}
-                  >
+                  <h2 className="title color-white sectionHeading">
                     {/* Recognions and Accreditations */}
                     Recognitions and Accreditations
                   </h2>
@@ -510,8 +495,7 @@ const LanguageAcademy = () => {
                   Strong alliances to empower learning
                 </span>
                 <h2
-                  className="title"
-                  style={{ fontWeight: "500", fontSize: "38px" }}
+                  className="title sectionHeading"
                 >
                   Our Academic Partners
                 </h2>
@@ -533,8 +517,7 @@ const LanguageAcademy = () => {
                   Industry-ready talent ideal for all sectors
                 </span>
                 <h2
-                  className="title"
-                  style={{ fontWeight: "500", fontSize: "38px" }}
+                  className="title sectionHeading"
                 >
                   2500+ Companies Hire our
                   <br />
