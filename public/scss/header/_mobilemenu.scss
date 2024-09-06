@@ -143,20 +143,20 @@
         .has-dropdown {
             > a {
                 position: relative;
-                &::after {
-                    position: absolute;
-                    content: "\e9b1";
-                    font-family: 'feather' !important;
-                    right: 0;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    transition: 0.4s;
-                }
-                &.open {
-                    &::after {
-                        content: "\e996";
-                    }
-                }
+                // &::after {
+                //     position: absolute;
+                //     content: "\e9b1";
+                //     font-family: 'feather' !important;
+                //     right: 0;
+                //     top: 50%;
+                //     transform: translateY(-50%);
+                //     transition: 0.4s;
+                // }
+                // &.open {
+                //     &::after {
+                //         content: "\e996";
+                //     }
+                // }
             }
         }
 

@@ -54,6 +54,9 @@
         display: inline-block;
         background: var(--color-primary);
         color: var(--color-primary);
+        @media #{$sm-layout} {
+            font-size: 12px;
+        }
     }
 
     .subtitle-2 {

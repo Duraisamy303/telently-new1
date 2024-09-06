@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo/header-logo.png";
+import logo from "../../public/images/logo/white-logo.png";
 import logoLight from "../../public/images/dark/logo/logo-light.png";
 
 import Nav from "./Nav";
@@ -13,7 +13,7 @@ const MobileMenu = () => {
   return (
     <>
       <div className={`popup-mobile-menu ${mobile ? "" : "active"}`}>
-        <div className="inner-wrapper">
+        <div className="inner-wrapper" style={{backgroundColor: "#4E4994"}}>
           <div className="inner-top">
             <div className="content mb--30">
               <div className="logo">
@@ -50,9 +50,9 @@ const MobileMenu = () => {
               Histudy is a education website template. You can customize all.
             </p> */}
             <ul className="navbar-top-left rbt-information-list justify-content-start">
-              <li>
-                <Link href="mailto:hello@example.com">
-                  <i className="feather-mail"></i>example@gmail.com
+              <li >
+                <Link href="mailto:support@talentely.com">
+                  <i className="feather-mail"></i>support@talentely.com
                 </Link>
               </li>
               <li>
@@ -69,14 +69,14 @@ const MobileMenu = () => {
             <div className="rbt-btn-wrapper mb--20">
               <Link
                 className="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
-                href="#"
+                href="#" style={{boxShadow:"none"}}
               >
                 <span>Enroll Now</span>
               </Link>
             </div>
 
             <div className="social-share-wrapper">
-              <span className="rbt-short-title d-block">Find With Us</span>
+              <span className="rbt-short-title d-block" style={{color: "#fff"}}>Find With Us</span>
               <ul className="social-icon social-default transparent-with-border justify-content-start mt--20">
                 <li>
                   <Link href="https://www.facebook.com/">
