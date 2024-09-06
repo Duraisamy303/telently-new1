@@ -197,23 +197,23 @@ const LanguageAcademy = () => {
     },
     content3: {
       img: recognize3,
-      title: `Vestibulum hendrerit`,
-      desc: "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+      title: `Why Talentely?`,
+      desc: "We provide industry-focused staffing and training solutions to drive success.",
       subContent: [
         {
-          text: "Cras ornare tristique",
+          text: "Top-tier talent",
         },
         {
-          text: "Lorem ipsum",
+          text: "Thorough screening",
         },
         {
-          text: "Vestibulum commodo",
+          text: "Rapid Deployment",
         },
         {
-          text: "Aliquam tincidunt",
+          text: "Specialized training",
         },
         {
-          text: "Integer vitae libero",
+          text: "Diverse talent pool",
         },
       ],
     },
@@ -494,11 +494,7 @@ const LanguageAcademy = () => {
                 <span className="subtitle bg-primary-opacity ">
                   Strong alliances to empower learning
                 </span>
-                <h2
-                  className="title sectionHeading"
-                >
-                  Our Academic Partners
-                </h2>
+                <h2 className="title sectionHeading">Our Academic Partners</h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p> */}
@@ -516,9 +512,7 @@ const LanguageAcademy = () => {
                 <span className="subtitle bg-primary-opacity">
                   Industry-ready talent ideal for all sectors
                 </span>
-                <h2
-                  className="title sectionHeading"
-                >
+                <h2 className="title sectionHeading">
                   2500+ Companies Hire our
                   <br />
                   Pre-trained Candidates
