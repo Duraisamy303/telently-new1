@@ -86,19 +86,19 @@ const FooterThree = () => {
                     <div className="footer-widget">
                       <h5 className="ft-title-new">Get Contact</h5>
                       <ul className="ft-link">
-                        <li>
+                        {/* <li>
                           <span>Phone:</span>{" "}
                           <Link href="#">{footer.phone}</Link>
-                        </li>
+                        </li> */}
                         <li>
                           <span>E-mail:</span>{" "}
                           <Link href="mailto:support@talentely.com">
                             {footer.mail}
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <span>Location:</span> {footer.address}
-                        </li>
+                        </li> */}
                       </ul>
                       <ul className="social-icon social-default icon-naked justify-content-start mt--20">
                         {footer.socialLink.map((value, innerIndex) => (
