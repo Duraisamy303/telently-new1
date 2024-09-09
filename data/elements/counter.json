@@ -67,14 +67,14 @@
           "text": "Years of Experience in Education",
           "data":"",
           "num": 40,
-          "img": "/images/icons/counter-01.png",
+          "img": "/images/banner/home-banner-icon1.png",
           "mt": ""
         },
         {
           "text": "Students Trained",
           "data":"Lakhs",
           "num": 20,
-          "img": "/images/icons/counter-02.png",
+          "img": "/images/banner/home-banner-icon2.png",
           "mt": "mt--60"
         }
       ]

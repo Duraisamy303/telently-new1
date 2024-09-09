@@ -101,7 +101,7 @@ const CourseTagTwo = () => {
 
             <div className="rbt-categori-list">
               <div className="blank"></div>
-              <div style={{ fontWeight: "bold" }}>300+ Top Institutions</div>
+              <div style={{ fontWeight: "bold", color:"#e06963" }}>300+ Top Institutions</div>
               <div className="blank"></div>
             </div>
           </div>

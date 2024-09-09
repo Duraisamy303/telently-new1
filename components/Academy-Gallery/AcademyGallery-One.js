@@ -110,7 +110,7 @@ const AcademyGalleryOne = () => {
                 <div className="mt--30">
                   <ul
                     className="rbt-list-style-2 rbt-generic-list-control-section"
-                    style={{ display: "block" }}
+                    style={{ display: "block", marginBottom:"0px" }}
                   >
                     <li
                       className="rbt-generic-list-control"

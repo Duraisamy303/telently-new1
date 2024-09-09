@@ -69,10 +69,10 @@ const MobileMenu = () => {
             <div className="rbt-btn-wrapper mb--20">
               <Link
                 className="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
-                href="#"
+                href="contact"
                 style={{ boxShadow: "none" }}
               >
-                <span>Enroll Now</span>
+                <span>Hire From Us</span>
               </Link>
             </div>
 

@@ -409,7 +409,9 @@ const LanguageAcademy = () => {
                                         <span
                                           style={{
                                             fontSize: "14px",
-                                            fontWeight: "bold",
+                                            fontWeight: "bold", position: "absolute",
+                                            left: "40px",
+                                            bottom: "-18px"
                                           }}
                                         >
                                           {item?.data}
