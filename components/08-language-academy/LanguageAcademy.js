@@ -78,6 +78,9 @@ import { companies } from "@/utils.js/constant.utils";
 import imgOne from "../../public/images/awards/awards-img-1.jpg";
 import imgTwo from "../../public/images/awards/awards-img-2.jpg";
 import imgThree from "../../public/images/awards/awards-img-3.jpg";
+import imgFour from "../../public/images/awards/awards-img-4.jpg";
+import imgFive from "../../public/images/awards/awards-img-5.jpg";
+
 import CourseTagTwo from "../Common/CourseTag-Two";
 import CounterTwo from "../Counters/Counter-Two";
 
@@ -255,11 +258,11 @@ const LanguageAcademy = () => {
       title: "Tamil Nadu Disruptors 2024 Award by YourStory Media ",
     },
     {
-      img: imgOne,
+      img: imgFour,
       title: "Remarkable brands of Tamil Nadu Award",
     },
     {
-      img: imgTwo,
+      img: imgFive,
       title: "The Brand, Advertising & Marketing Summit 2023",
     },
     {
