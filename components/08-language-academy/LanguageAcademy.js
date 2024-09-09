@@ -586,7 +586,7 @@ const LanguageAcademy = () => {
 
           <div className="row g-5">
             {Awards.map((item, i) => (
-              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                 <div className="rbt-category-gallery">
                   <div className="thumbnail">
                     <Link href="#">

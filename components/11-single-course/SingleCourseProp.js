@@ -17,7 +17,7 @@ export default function SingleCourseProp({ data }) {
               {/* <p>{data?.content1?.desc}</p> */}
               <div className="row g-5">
                 {data?.content1?.imgs?.map((list, i) => (
-                  <div className="col-lg-4 col-6" style={{marginTop:"30px"}}>
+                  <div className="col-lg-4 col-6" style={{marginTop:"30px"}} key={i}>
                     <Image
                       src={list}
                       width={"100%"}
