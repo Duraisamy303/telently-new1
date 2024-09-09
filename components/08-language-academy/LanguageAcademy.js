@@ -381,7 +381,7 @@ const LanguageAcademy = () => {
                           <div className="row row--30">
                             {data.body.map((item, innerIndex) => (
                               <div
-                                className={`col-lg-6 col-md-6 col-sm-6 col-12 ${item.mt}`}
+                                className={`col-lg-6 col-md-6 col-sm-6 col-12`}
                                 key={innerIndex}
                               >
                                 <div className="rbt-counterup rbt-hover-03">
