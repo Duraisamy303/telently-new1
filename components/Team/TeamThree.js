@@ -17,7 +17,7 @@ const TeamThree = () => {
         <div className="row row--15">
           {TeamData &&
             TeamData.teamTwo.map((data, index) => (
-              <div className="col-lg-4 col-md-6 col-12 mt--30" key={index}>
+              <div className="col-lg-3 col-md-6 col-12 mt--30" key={index}>
                 {data.details.map((item, innerIndex) => (
                   <div
                     className="rbt-team team-style-default rbt-hover-02"
@@ -35,7 +35,7 @@ const TeamThree = () => {
                       </div>
                       <div className="content">
                         <h4
-                          style={{ textAlign: "center", fontSize: "24px",fontWeight:"normal" }}
+                          style={{ textAlign: "center", fontSize: "18px",fontWeight:"normal", marginBottom: "0px" }}
                           dangerouslySetInnerHTML={{ __html: item.name }}
                         ></h4>
                         {/* <h6 className="subtitle theme-gradient">{item.type}</h6>

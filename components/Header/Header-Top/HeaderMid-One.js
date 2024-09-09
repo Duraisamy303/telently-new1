@@ -97,20 +97,23 @@ const HeaderMidOne = ({
                 </div>
               </div>
             </div> */}
-             <div className="rbt-header-sec-col rbt-header-center d-none d-md-block">
-            <div className="rbt-header-content">
-              <div className="header-info">
-                <div className="rbt-search-field">
-                  <div className="search-field">
-                    <input type="text" placeholder="Search Course" />
-                    <button className="rbt-round-btn serach-btn" type="submit">
-                      <i className="feather-search"></i>
-                    </button>
+            {/* <div className="rbt-header-sec-col rbt-header-center d-none d-md-block">
+              <div className="rbt-header-content">
+                <div className="header-info">
+                  <div className="rbt-search-field">
+                    <div className="search-field">
+                      <input type="text" placeholder="Search Course" />
+                      <button
+                        className="rbt-round-btn serach-btn"
+                        type="submit"
+                      >
+                        <i className="feather-search"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
 
             <div className="rbt-header-sec-col rbt-header-right">
               <div className="rbt-header-content">
@@ -140,7 +143,11 @@ const HeaderMidOne = ({
                   <Link
                     className="rbt-btn rbt-switch-btn btn-gradient btn-sm hover-transform-none"
                     href="#"
-                    style={{fontSize:"12px",height:"38px",lineHeight:"38px",}}
+                    style={{
+                      fontSize: "12px",
+                      height: "38px",
+                      lineHeight: "38px",
+                    }}
                   >
                     <span data-text="Get Free Course">Login/Register</span>
                   </Link>

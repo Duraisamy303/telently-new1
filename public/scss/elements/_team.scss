@@ -9,16 +9,16 @@
         box-shadow: var(--shadow-1);
 
         .thumbnail {
-            max-width: 150px;
-            max-height: 150px;
+            max-width: 120px;
+            max-height: 120px;
             border-radius: 100%;
             border: 6px solid var(--color-border);
-            top: -75px;
+            top: -55px;
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            min-width: 150px;
-            min-height: 150px;
+            min-width: 120px;
+            min-height: 120px;
             overflow: hidden;
             img {
                 width: 100%;

@@ -15,6 +15,8 @@ import AccordionThree from "@/components/Accordions/Accordion-Three";
 import TeamThree from "@/components/Team/TeamThree";
 import FooterThree from "@/components/Footer/Footer-Three";
 import HeaderStyleThree from "@/components/Header/HeaderStyle-Three";
+import CategoryOne from "@/components/Category/CategoryOne";
+import TeamData from "../../data/elements/team.json";
 
 const ContactPage = () => {
   return (
@@ -38,9 +40,7 @@ const ContactPage = () => {
             <AccordionThree />
           </div>
 
-          <div className="rbt-team-area bg-color-white rbt-section-gap">
-            <TeamThree />
-          </div>
+       
 
           {/* <div className="rbt-conatct-area bg-gradient-11 rbt-section-gap">
             <div className="container">
@@ -59,8 +59,12 @@ const ContactPage = () => {
               <Contact />
             </div>
           </div> */}
-          <div className="rbt-team-area bg-color-extra2 rbt-section-gap">
+          <div className="rbt-team-area bg-color-white rbt-section-gap">
             <ContactForm />
+          </div>
+
+          <div className="rbt-team-area bg-color-extra2 rbt-section-gap">
+            <TeamThree />
           </div>
           {/* <div className="rbt-google-map bg-color-white ">
             <iframe

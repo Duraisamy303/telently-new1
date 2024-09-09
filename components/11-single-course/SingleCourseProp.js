@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import CourseSlider from "./CourseSlider";
 
-export default function SingleCourseProp({data }) {
+export default function SingleCourseProp({ data }) {
   console.log("data: ", data);
   return (
     <>
@@ -10,43 +10,31 @@ export default function SingleCourseProp({data }) {
         {/* {data.map((data, index) => ( */}
         <div className="modern-course-features-box-new h-100">
           <div className="inner">
-            <div className="thumbnail">
-              <Image
-                src={data.content1?.img}
-                width={604}
-                height={408}
-                alt="Image"
-              />
-            </div>
             <div className="content">
-              <h2 className="title" style={{fontWeight:"600"}}>{data?.content1?.title}</h2>
-              <p>{data?.content1?.desc}</p>
-              <ul className="course-feature-list ">
+              <h2 className="title" style={{ textAlign: "center", fontSize: "24px",fontWeight:"500", }}>
+                {data?.content1?.title}
+              </h2>
+              {/* <p>{data?.content1?.desc}</p> */}
+              <div className="row g-5">
                 {data?.content1?.imgs?.map((list, i) => (
-                  <li key={i} style={{padding:"10px 20px 30px 20px"}}>
-                    <div className="flex flex-start">
-                      <Image
-                        src={list}
-                        width={"100%"}
-                        height={'100%'}
-                        alt="Icon Image"
-                      />
-                    </div>
-                    {/* <div className="feature-content">
-                          <h4 className="featute-title">
-                            {list.num}K+ <span>{list.text}</span>
-                          </h4>
-                        </div>  */}
-                  </li>
+                  <div className="col-lg-4 col-6" style={{marginTop:"30px"}}>
+                    <Image
+                      src={list}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="Icon Image"
+                    />
+                  </div>
                 ))}
-              </ul>
+              </div>
+            
             </div>
           </div>
         </div>
         {/* ))} */}
       </div>
 
-      <div className="col-lg-6">
+      {/* <div className="col-lg-6">
         <div className="modern-course-features-box-new one-colume-grid h-80">
           <div className="inner">
             <div className="thumbnail">
@@ -77,7 +65,6 @@ export default function SingleCourseProp({data }) {
               
               />
             </div>
-            {/* <CourseSlider {...data.container3} course={data.container3.img} /> */}
             <div className="content">
               <h2 className="title" style={{fontWeight:"600", marginTop:"0px"}}>{data.content3.title}</h2>
               <p style={{marginBottom:"20px"}}>{data.content3.desc}</p>
@@ -92,7 +79,7 @@ export default function SingleCourseProp({data }) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

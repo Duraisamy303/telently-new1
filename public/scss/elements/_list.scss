@@ -311,14 +311,7 @@
     padding: 20px;
   }
   .inner {
-    display: flex;
-    // align-items: center;
-    @media #{$md-layout} {
-      display: block;
-    }
-    @media #{$sm-layout} {
-      display: block;
-    }
+   
     .thumbnail {
       flex-basis: 50%;
       img {
@@ -340,8 +333,7 @@
       .title {
         color: black;
         font-size: 36px;
-        padding-right: 14%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         margin-top: 15px;
         @media #{$sm-layout} {
           font-size: 26px;

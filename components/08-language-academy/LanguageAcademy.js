@@ -38,18 +38,18 @@ import recogLogo2 from "../../public/images/recognize/2.png";
 import recogLogo3 from "../../public/images/recognize/3.png";
 import recogLogo4 from "../../public/images/recognize/4.png";
 
-import brandLogo1 from "../../public/images/brand/l-6.png";
+import brandLogo1 from "../../public/images/brand/l-7.png";
 import brandLogo2 from "../../public/images/brand/l-10.png";
 import brandLogo3 from "../../public/images/brand/l-9.png";
-import brandLogo4 from "../../public/images/brand/l-8.png";
-import brandLogo5 from "../../public/images/brand/l-7.png";
-import brandLogo6 from "../../public/images/brand/l-11.png";
+import brandLogo4 from "../../public/images/brand/l-6.png";
+import brandLogo5 from "../../public/images/brand/l-11.png";
+import brandLogo6 from "../../public/images/brand/l-1.png";
 import brandLogo7 from "../../public/images/brand/l-5.png";
-import brandLogo8 from "../../public/images/brand/l-12.png";
-import brandLogo9 from "../../public/images/brand/l-4.png";
-import brandLogo10 from "../../public/images/brand/l-3.png";
-import brandLogo11 from "../../public/images/brand/l-1.png";
-import brandLogo12 from "../../public/images/brand/l-2.png";
+import brandLogo8 from "../../public/images/brand/l-3.png";
+import brandLogo9 from "../../public/images/brand/l-2.png";
+import brandLogo10 from "../../public/images/brand/l-12.png";
+import brandLogo11 from "../../public/images/brand/l-8.png";
+import brandLogo12 from "../../public/images/brand/l-4.png";
 
 import recognize1 from "../../public/images/recognize/img-1.jpg";
 import recognize2 from "../../public/images/recognize/img-2.jpg";
@@ -74,6 +74,11 @@ import aca_6 from "../../public/images/scroll/log-2.png";
 import aca_7 from "../../public/images/scroll/log-3.png";
 import aca_8 from "../../public/images/scroll/log-4.png";
 import { companies } from "@/utils.js/constant.utils";
+
+import imgOne from "../../public/images/awards/awards-img-1.jpg";
+import imgTwo from "../../public/images/awards/awards-img-2.jpg";
+import imgThree from "../../public/images/awards/awards-img-3.jpg";
+import CourseTagTwo from "../Common/CourseTag-Two";
 
 const LanguageAcademy = () => {
   let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.languageAcademy));
@@ -150,7 +155,7 @@ const LanguageAcademy = () => {
           },
           {
             text: "TPO Connects across India ",
-            num: 5000,
+            num: 8000,
             top: false,
           },
         ],
@@ -176,7 +181,7 @@ const LanguageAcademy = () => {
   const courseData = {
     content1: {
       img: recognize1,
-      title: `As a trusted leader in the industry`,
+      title: `Talentely is recognized and accredited by leading industry & Education bodies, including:`,
       desc: "we continuously strive for excellence - Our global recognition validates our commitment to sustaining standards in imparting education.",
       imgs: [
         containerLogo1,
@@ -220,6 +225,33 @@ const LanguageAcademy = () => {
   };
 
   const academic = [aca_1, aca_2, aca_3, aca_4, aca_5, aca_6, aca_7, aca_8];
+
+  const Awards = [
+    {
+      img: imgOne,
+      title: "Double Advantage Campaign",
+    },
+    {
+      img: imgTwo,
+      title: "India's Rising Star 2024 in the edtech space by the Brand Story ",
+    },
+    {
+      img: imgThree,
+      title: "Tamil Nadu Disruptors 2024 Award by YourStory Media ",
+    },
+    {
+      img: imgOne,
+      title: "Remarkable brands of Tamil Nadu Award",
+    },
+    {
+      img: imgTwo,
+      title: "The Brand, Advertising & Marketing Summit 2023",
+    },
+    {
+      img: imgThree,
+      title: "Iconic Brands of India 2023",
+    },
+  ];
   return (
     <>
       <div className="rbt-banner-area rbt-banner-7 bg-gradient-1 theme-shape header-transperent-spacer">
@@ -248,48 +280,35 @@ const LanguageAcademy = () => {
                     </h3>
                     <div className="rbt-like-total">
                       <div className="profile-share">
-                        <Link
-                          href="#"
-                          className="avatar"
-                          data-tooltip="Mark JOrdan"
-                          tabIndex="0"
-                        >
-                          <Image
-                            src={client1}
-                            width={55}
-                            height={55}
-                            alt="education"
-                          />
-                        </Link>
-                        <Link
-                          href="#"
-                          className="avatar"
-                          data-tooltip="Mark"
-                          tabIndex="0"
-                        >
-                          <Image
-                            src={client2}
-                            width={55}
-                            height={55}
-                            alt="education"
-                          />
-                        </Link>
-                        <Link
-                          href="#"
-                          className="avatar"
-                          data-tooltip="Jordan"
-                          tabIndex="0"
-                        >
-                          <Image
-                            src={client3}
-                            width={55}
-                            height={55}
-                            alt="education"
-                          />
-                        </Link>
+                        <div className="avatar-group" style={{display: "flex", marginRight: "20px"}}>
+                          <div className="avatar">
+                            <Image
+                              src={client1}
+                              width={55}
+                              height={55}
+                              alt="education"
+                            />
+                          </div>
+                          <div className="avatar">
+                            <Image
+                              src={client2}
+                              width={55}
+                              height={55}
+                              alt="education"
+                            />
+                          </div>
+                          <div className="avatar">
+                            <Image
+                              src={client3}
+                              width={55}
+                              height={55}
+                              alt="education"
+                            />
+                          </div>
+                        </div>
                         <div className="more-author-text">
                           <h5 className="total-join-students">
-                            Join Over 3000+ Students
+                            Hire now 4500+ trained developers
                           </h5>
                           <p className="subtitle">
                             Have a new ideas every week.
@@ -300,16 +319,16 @@ const LanguageAcademy = () => {
                     <div className="rbt-button-group justify-content-start mt--30">
                       <Link
                         className="rbt-btn btn-gradient rbt-switch-btn"
-                        href="#"
+                        href="/contact"
                         style={{
                           height: "53px",
                           lineHeight: "53px",
                           fontSize: "14px",
                         }}
                       >
-                        <span data-text="Sign Up Now">Sign Up Now</span>
+                        <span data-text="Hire From Us">Hire From Us</span>
                       </Link>
-                      <Link
+                      {/* <Link
                         className="rbt-btn btn-border rbt-switch-btn"
                         href="#"
                         style={{
@@ -319,7 +338,7 @@ const LanguageAcademy = () => {
                         }}
                       >
                         <span data-text="Find Courses">Find Courses</span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
@@ -349,7 +368,7 @@ const LanguageAcademy = () => {
           </div>
         </div>
       </div> */}
-      <div className="rbt-brand-area bg-color-white ptb--60">
+      {/* <div className="rbt-brand-area bg-color-white ptb--60">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-1"></div>
@@ -372,9 +391,9 @@ const LanguageAcademy = () => {
             <div className="col-lg-1"></div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="rbt-counterup-area ptb--60 bg-theme-lightblue ">
+      <div className="rbt-counterup-area ptb--60  bg-color-white ">
         <div className="container">
           <div className="row mb--50 ">
             <div className="col-lg-12">
@@ -408,7 +427,7 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className="rbt-counterup-area ptb--60 bg-color-white ">
+      <div className="rbt-counterup-area ptb--60 bg-theme-lightblue ">
         <div className="container">
           <div className="row mb--20 ">
             <div className="col-lg-12">
@@ -424,7 +443,7 @@ const LanguageAcademy = () => {
               </div>
             </div>
           </div>
-          <div className="row rbt-brand-area bg-color-white ">
+          <div className="row rbt-brand-area ">
             <CategoryOne data={brand} />
           </div>
         </div>
@@ -445,14 +464,17 @@ const LanguageAcademy = () => {
                   <span className="subtitle bg-secondary-opacity-new">
                     Accredited for sustaining global standards
                   </span>
-                  <h2 className="title color-white sectionHeading">
+                  <h2
+                    className="title color-white sectionHeading"
+                    style={{ marginBottom: "30px" }}
+                  >
                     {/* Recognions and Accreditations */}
                     Recognitions and Accreditations
                   </h2>
                   {/* <p className="description has-medium-font-size mt--20 mb--0">
                     Language Academic?
                   </p> */}
-                  <Link
+                  {/* <Link
                     className="rbt-btn hover-icon-reverse btn-border color-white-off mt--30 mb--30"
                     href="#"
                     style={{
@@ -470,7 +492,7 @@ const LanguageAcademy = () => {
                         <i className="feather-arrow-right"></i>
                       </span>
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
 
                 <div className="row g-5">
@@ -482,6 +504,53 @@ const LanguageAcademy = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="rbt-program-area ptb--60 bg-color-white" id="program">
+        <div className="container">
+          <div className="row g-5 align-items-end mb--40">
+            <div className="section-title text-center">
+              <span className="subtitle bg-primary-opacity">
+                Recognitions and Accreditations
+              </span>
+              <h2 className="title sectionHeading">Awards</h2>
+            </div>
+          </div>
+
+          <div className="row g-5">
+            {Awards.map((item, i) => (
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div className="rbt-category-gallery">
+                  <div className="thumbnail">
+                    <Link href="#">
+                      <Image
+                        src={item.img}
+                        property="true"
+                        alt="Gallery Images"
+                      />
+                      <div className="rbt-bg-overlay"></div>
+                    </Link>
+                    <div
+                      className="hover-content"
+                      style={{ display: "flex", justifyContent: "center" }}
+                    >
+                      <h3
+                        className="title"
+                        style={{
+                          width: "60%",
+                          fontSize: "24px",
+                          lineHeight: "36px",
+                        }}
+                      >
+                        {item.title}
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -501,9 +570,25 @@ const LanguageAcademy = () => {
               </div>
             </div>
           </div>
+          <CourseTagTwo />
         </div>
-        <TeamEight head={false} data={academic} />
       </div>
+
+      {/* <div className="rbt-course-category rbt-section-gap overflow-hidden">
+        <div className="container">
+          <div className="row mb--25">
+            <div className="col-lg-12">
+              <div className="section-title text-center">
+                <h5 className="subtitle bg-secondary-opacity">
+                  Histudy Feature Category
+                </h5>
+              </div>
+            </div>
+          </div>
+          <CourseTagTwo />
+        </div>
+      </div> */}
+
       <div className="bg-color-white rbt-section-gap-own ptb--60">
         <div className="container">
           <div className="row ">

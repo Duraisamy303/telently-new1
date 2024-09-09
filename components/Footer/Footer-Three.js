@@ -86,10 +86,10 @@ const FooterThree = () => {
                     <div className="footer-widget">
                       <h5 className="ft-title-new">Get Contact</h5>
                       <ul className="ft-link">
-                        {/* <li>
+                        <li>
                           <span>Phone:</span>{" "}
-                          <Link href="#">{footer.phone}</Link>
-                        </li> */}
+                          <Link href="tel:9894261122">{footer.phone}</Link>
+                        </li>
                         <li>
                           <span>E-mail:</span>{" "}
                           <Link href="mailto:support@talentely.com">

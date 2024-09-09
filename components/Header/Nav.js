@@ -26,88 +26,16 @@ const Nav = () => {
     <nav className="mainmenu-nav">
       <ul className="mainmenu">
         <li className="with-megamenu has-menu-child-item position-static">
-          {/* <Link
-            className={`${activeMenuItem === "home" ? "open" : ""} color-white`}
-            onClick={() => toggleMenuItem("home")}
-            href="abouts"
-          >
-            About us
-            <i className="feather-chevron-down"></i>
-          </Link> */}
+          <Link className={` color-white`} href="/">
+            <i className="feather-home"></i>
+          </Link>
+        </li>
 
+        {/* <li className="with-megamenu has-menu-child-item position-static">
           <Link className={` color-white `} onClick={() => {}} href="About">
             About us
-            {/* <i className="feather-chevron-down"></i> */}
           </Link>
-          {/* <div
-            className={`rbt-megamenu menu-skin-dark ${
-              activeMenuItem === "home" ? "active d-block" : ""
-            }`}
-          >
-            <div className="wrapper">
-              <div className="row row--15 home-plesentation-wrapper single-dropdown-menu-presentation">
-                {MenuData &&
-                  MenuData.menuData.map((data, index) => {
-                    if (data.menuType === "home") {
-                      const elements = data.menuItems?.map(
-                        (value, innerIndex) => (
-                          <div
-                            className="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item"
-                            key={innerIndex}
-                          >
-                            <div className="demo-single">
-                              <div
-                                className={`inner ${
-                                  value.badget ? "disable" : ""
-                                }`}
-                              >
-                                <div className="thumbnail">
-                                  <Link href={value.link} className="relative">
-                                    <Image
-                                      src={value.img}
-                                      width={454}
-                                      height={332}
-                                      alt="Demo Images"
-                                    />
-                                    {value.badget ? (
-                                      <span className="rbt-badge-card rbt-badge-card__coming">
-                                        Coming
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
-                                  </Link>
-                                </div>
-                                <div className="content">
-                                  <h4 className="title">
-                                    <Link href={value.link}>
-                                      {value.title}
-                                      {value.badget ? (
-                                        <span className="rbt-badge-card ms-3 d-lg-none">
-                                          Coming
-                                        </span>
-                                      ) : (
-                                        ""
-                                      )}
-                                      <span className="btn-icon">
-                                        <i className="feather-arrow-right"></i>
-                                      </span>
-                                    </Link>
-                                  </h4>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        )
-                      );
-                      return elements;
-                    }
-                    return null;
-                  })}
-              </div>
-            </div>
-          </div> */}
-        </li>
+        </li> */}
 
         {/* <li className="with-megamenu has-menu-child-item">
           <Link
@@ -474,7 +402,6 @@ const Nav = () => {
             </div>
           </div>
         </li> */}
-       
 
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
