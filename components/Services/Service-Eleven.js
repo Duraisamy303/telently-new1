@@ -3,27 +3,16 @@ import Link from "next/link";
 
 import ServiceData from "../../data/elements/service.json";
 
-const ServiceEleven = ({ isTitle }) => {
+const ServiceEleven = () => {
   return (
     <>
       {ServiceData &&
         ServiceData.serviceEleven.map((data, index) => (
           <div className="container" key={index}>
-            {isTitle === undefined ? (
-              <div className="row mb--60">
-                <div className="col-lg-12">
-                  <div className="section-title text-center">
-                    <h2 className="title">{data.sectionTitle}</h2>
-                  </div>
-                </div>
-              </div>
-            ) : (
-              ""
-            )}
             <div className="row row--15 mt_dec--30">
               {data.body.map((item, innerIndex) => (
                 <div
-                  className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mt--30"
+                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mt--30"
                   key={innerIndex}
                 >
                   <div className="rbt-flipbox variation-2">
@@ -61,12 +50,6 @@ const ServiceEleven = ({ isTitle }) => {
                               </li>
                             ))}
                           </ul>
-                          <Link
-                            className="rbt-btn-link stretched-link"
-                            href="#"
-                          >
-                            Learn More<i className="feather-arrow-right"></i>
-                          </Link>
                         </div>
                       </div>
 
@@ -81,14 +64,20 @@ const ServiceEleven = ({ isTitle }) => {
                               alt="card-icon"
                             />
                           </div>
-                          <p>{item.desc}</p>
+                          <div className="content">
+                            <h5 className="title">
+                              <Link href="#">{item.title}</Link>
+                            </h5>
+                            <ul className="rbt-list-style-3">
+                              {item.list.map((listItem, innerIndex) => (
+                                <li key={innerIndex}>
+                                  <i className={listItem.icon}></i>{" "}
+                                  {listItem.text}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
                         </div>
-                        <Link
-                          className="rbt-btn rbt-switch-btn btn-white btn-sm"
-                          href="#"
-                        >
-                          <span data-text="Learn More">Learn More</span>
-                        </Link>
                       </div>
                     </div>
                   </div>

@@ -541,7 +541,7 @@
       "sectionTitle": "Style Eleven.",
       "body": [
         {
-          "title": "Infant",
+          "title": "Access to Largest Pre-Trained Talent with Zero Cost",
           "imgFront": "/images/flip/kindergarten-01-front.jpg",
           "img": "/images/flip/kindergarten-01-back.jpg",
           "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
@@ -551,29 +551,25 @@
           "bgFour": false,
           "list": [
             {
-              "text": "Health and Wellness",
-              "icon": "feather-heart"
+              "text": "Employability Skills Trained",
+              "icon": "feather-check"
             },
             {
-              "text": "Literacy and Language",
-              "icon": "feather-flag"
+              "text": "Future Skills Trained",
+              "icon": "feather-check"
             },
             {
-              "text": "Social-Emotional Learning",
-              "icon": "feather-eye"
+              "text": "Custom & Niche Skill Trained",
+              "icon": "feather-check"
             },
             {
-              "text": "Visual and Creative Arts",
-              "icon": "feather-edit-2"
-            },
-            {
-              "text": "Thinking and Learning",
-              "icon": "feather-battery-charging"
+              "text": "AI Driven Training & Assessment Platform",
+              "icon": "feather-check"
             }
           ]
         },
         {
-          "title": "Toddler/Twos",
+          "title": "360° Profiled Candidates",
           "imgFront": "/images/flip/kindergarten-02-front.jpg",
           "img": "/images/flip/kindergarten-02-back.jpg",
           "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
@@ -583,29 +579,29 @@
           "bgFour": false,
           "list": [
             {
-              "text": "Health and Wellness",
-              "icon": "feather-heart"
+              "text": " Learner’s DNA Pattern Captured",
+              "icon": "feather-check"
             },
             {
-              "text": "Literacy and Language",
-              "icon": "feather-flag"
+              "text": "Student Skill credibility verified with EIS Authentication Framework",
+              "icon": "feather-check"
             },
             {
-              "text": "Social-Emotional Learning",
-              "icon": "feather-eye"
+              "text": "Certifications, Projects & Competitive Programing Scores Captured",
+              "icon": "feather-check"
             },
             {
-              "text": "Visual and Creative Arts",
-              "icon": "feather-edit-2"
+              "text": "Student Job Preference Captured",
+              "icon": "feather-check"
             },
             {
-              "text": "Thinking and Learning",
-              "icon": "feather-battery-charging"
+              "text": "Personal & Academic Information",
+              "icon":"feather-check"
             }
           ]
         },
         {
-          "title": "Preschool",
+          "title": "Pan India Recruitment Support",
           "imgFront": "/images/flip/kindergarten-03-front.jpg",
           "img": "/images/flip/kindergarten-03-back.jpg",
           "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
@@ -615,56 +611,16 @@
           "bgFour": false,
           "list": [
             {
-              "text": "Health and Wellness",
-              "icon": "feather-heart"
+              "text": "Access to Largest Pool of Pre-Trained Talent across Tier 1, 2 & 3 Institutions",
+              "icon": "feather-check"
             },
             {
-              "text": "Literacy and Language",
-              "icon": "feather-flag"
+              "text": "Precise Recruitment based on EIS, Student Preference & Performance",
+              "icon": "feather-check"
             },
             {
-              "text": "Social-Emotional Learning",
-              "icon": "feather-eye"
-            },
-            {
-              "text": "Visual and Creative Arts",
-              "icon": "feather-edit-2"
-            },
-            {
-              "text": "Thinking and Learning",
-              "icon": "feather-battery-charging"
-            }
-          ]
-        },
-        {
-          "title": "Kindergarten Prep",
-          "imgFront": "/images/flip/kindergarten-04-front.jpg",
-          "img": "/images/flip/kindergarten-04-back.jpg",
-          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
-          "bgFour": true,
-          "bgOne": false,
-          "bgTwo": false,
-          "bgThree": false,
-          "list": [
-            {
-              "text": "Health and Wellness",
-              "icon": "feather-heart"
-            },
-            {
-              "text": "Literacy and Language",
-              "icon": "feather-flag"
-            },
-            {
-              "text": "Social-Emotional Learning",
-              "icon": "feather-eye"
-            },
-            {
-              "text": "Visual and Creative Arts",
-              "icon": "feather-edit-2"
-            },
-            {
-              "text": "Thinking and Learning",
-              "icon": "feather-battery-charging"
+              "text": "Spot Hidden Gems in Tier 2 & 3 Institutions",
+              "icon": "feather-check"
             }
           ]
         }

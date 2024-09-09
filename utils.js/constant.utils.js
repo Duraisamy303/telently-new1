@@ -46,6 +46,26 @@ import com_45 from "../public/images/companies/18.png";
 import com_46 from "../public/images/companies/14.png";
 import com_47 from "../public/images/companies/12.png";
 
+import brandLogo1 from "../public/images/brand/l-7.png";
+import brandLogo2 from "../public/images/brand/l-10.png";
+import brandLogo3 from "../public/images/brand/l-9.png";
+import brandLogo4 from "../public/images/brand/l-6.png";
+import brandLogo5 from "../public/images/brand/l-11.png";
+import brandLogo6 from "../public/images/brand/l-1.png";
+import brandLogo7 from "../public/images/brand/l-5.png";
+import brandLogo8 from "../public/images/brand/l-3.png";
+import brandLogo9 from "../public/images/brand/l-2.png";
+import brandLogo10 from "../public/images/brand/l-12.png";
+import brandLogo11 from "../public/images/brand/l-8.png";
+import brandLogo12 from "../public/images/brand/l-4.png";
+
+import AwardImgOne from "../public/images/awards/awards-img-1.jpg";
+import AwardImgTwo from "../public/images/awards/awards-img-2.jpg";
+import AwardImgThree from "../public/images/awards/awards-img-3.jpg";
+import AwardImgFour from "../public/images/awards/awards-img-4.jpg";
+import AwardImgFive from "../public/images/awards/awards-img-5.jpg";
+import AwardImgSix from "../public/images/awards/awards-img-6.jpg";
+
 export const companies = [
   com_1,
   com_2,
@@ -94,4 +114,82 @@ export const companies = [
   com_45,
   com_46,
   com_47,
+];
+
+export const brand = [
+  {
+    img: brandLogo1,
+    linkURL: "https://www.edureka.co/",
+  },
+  {
+    img: brandLogo2,
+    linkURL: "https://www.sixphrase.com/",
+  },
+  {
+    img: brandLogo3,
+    linkURL: "https://phire.in/home/",
+  },
+  {
+    img: brandLogo4,
+    linkURL: "https://www.thesmartbridge.com",
+  },
+  {
+    img: brandLogo5,
+    linkURL: "https://bassure.com/",
+  },
+  {
+    img: brandLogo6,
+    linkURL: "https://www.verandavarsity.com",
+  },
+  {
+    img: brandLogo7,
+    linkURL: "https://www.tapasyaedu.com",
+  },
+  {
+    img: brandLogo8,
+    linkURL: "https://verandak12.com",
+  },
+  {
+    img: brandLogo9,
+    linkURL: "https://verandaias.com",
+  },
+  {
+    img: brandLogo10,
+    linkURL: "https://verandahighered.com",
+  },
+  {
+    img: brandLogo11,
+    linkURL: "https://jkshahclasses.com",
+  },
+  {
+    img: brandLogo12,
+    linkURL: "https://verandarace.com",
+  },
+];
+
+export const Awards = [
+  {
+    img: AwardImgOne,
+    title: "Double Advantage Campaign",
+  },
+  {
+    img: AwardImgTwo,
+    title: "India's Rising Star 2024 in the edtech space by the Brand Story ",
+  },
+  {
+    img: AwardImgThree,
+    title: "Tamil Nadu Disruptors 2024 Award by YourStory Media ",
+  },
+  {
+    img: AwardImgFour,
+    title: "Remarkable brands of Tamil Nadu Award",
+  },
+  {
+    img: AwardImgFive,
+    title: "The Brand, Advertising & Marketing Summit 2023",
+  },
+  {
+    img: AwardImgSix,
+    title: "Iconic Brands of India 2023",
+  },
 ];

@@ -38,32 +38,22 @@ import recogLogo2 from "../../public/images/recognize/2.png";
 import recogLogo3 from "../../public/images/recognize/3.png";
 import recogLogo4 from "../../public/images/recognize/4.png";
 
-import brandLogo1 from "../../public/images/brand/l-7.png";
-import brandLogo2 from "../../public/images/brand/l-10.png";
-import brandLogo3 from "../../public/images/brand/l-9.png";
-import brandLogo4 from "../../public/images/brand/l-6.png";
-import brandLogo5 from "../../public/images/brand/l-11.png";
-import brandLogo6 from "../../public/images/brand/l-1.png";
-import brandLogo7 from "../../public/images/brand/l-5.png";
-import brandLogo8 from "../../public/images/brand/l-3.png";
-import brandLogo9 from "../../public/images/brand/l-2.png";
-import brandLogo10 from "../../public/images/brand/l-12.png";
-import brandLogo11 from "../../public/images/brand/l-8.png";
-import brandLogo12 from "../../public/images/brand/l-4.png";
-
 import recognize1 from "../../public/images/recognize/img-1.jpg";
 import recognize2 from "../../public/images/recognize/img-2.jpg";
 import recognize3 from "../../public/images/recognize/img-3.jpg";
 
-import containerLogo1 from "../../public/images/recognize/logo-1.jpg";
-import containerLogo2 from "../../public/images/recognize/logo-3.jpg";
-import containerLogo3 from "../../public/images/recognize/logo-2.jpg";
-import containerLogo4 from "../../public/images/recognize/logo-5.jpg";
-import containerLogo5 from "../../public/images/recognize/logo-4.jpg";
-import containerLogo6 from "../../public/images/recognize/logo-6.jpg";
-import containerLogo7 from "../../public/images/recognize/logo-9.jpg";
-import containerLogo8 from "../../public/images/recognize/logo-7.jpg";
-import containerLogo9 from "../../public/images/recognize/logo-8.jpg";
+import containerLogo1 from "../../public/images/recognize/logo-1.png";
+import containerLogo2 from "../../public/images/recognize/logo-2.png";
+import containerLogo3 from "../../public/images/recognize/logo-3.png";
+import containerLogo4 from "../../public/images/recognize/logo-4.png";
+import containerLogo5 from "../../public/images/recognize/logo-5.png";
+import containerLogo6 from "../../public/images/recognize/logo-6.png";
+import containerLogo7 from "../../public/images/recognize/logo-7.png";
+import containerLogo8 from "../../public/images/recognize/logo-8.png";
+import containerLogo9 from "../../public/images/recognize/logo-9.png";
+import containerLogo10 from "../../public/images/recognize/logo-10.png";
+import containerLogo11 from "../../public/images/recognize/logo-11.png";
+import containerLogo12 from "../../public/images/recognize/logo-12.png";
 
 import aca_1 from "../../public/images/scroll/log-1.png";
 import aca_2 from "../../public/images/scroll/log-2.png";
@@ -73,13 +63,7 @@ import aca_5 from "../../public/images/scroll/log-1.png";
 import aca_6 from "../../public/images/scroll/log-2.png";
 import aca_7 from "../../public/images/scroll/log-3.png";
 import aca_8 from "../../public/images/scroll/log-4.png";
-import { companies } from "@/utils.js/constant.utils";
-
-import imgOne from "../../public/images/awards/awards-img-1.jpg";
-import imgTwo from "../../public/images/awards/awards-img-2.jpg";
-import imgThree from "../../public/images/awards/awards-img-3.jpg";
-import imgFour from "../../public/images/awards/awards-img-4.jpg";
-import imgFive from "../../public/images/awards/awards-img-5.jpg";
+import { Awards, brand, companies } from "@/utils.js/constant.utils";
 
 import CourseTagTwo from "../Common/CourseTag-Two";
 import CounterTwo from "../Counters/Counter-Two";
@@ -181,20 +165,56 @@ const LanguageAcademy = () => {
     ],
   };
 
-  const brand = [
-    brandLogo1,
-    brandLogo2,
-    brandLogo3,
-    brandLogo4,
-    brandLogo5,
-    brandLogo6,
-    brandLogo7,
-    brandLogo8,
-    brandLogo9,
-    brandLogo10,
-    brandLogo11,
-    brandLogo12,
-  ];
+  // const brand = [
+  //   {
+  //     img: brandLogo1,
+  //     linkURL: "https://www.edureka.co/",
+  //   },
+  //   {
+  //     img: brandLogo2,
+  //     linkURL: "https://www.sixphrase.com/",
+  //   },
+  //   {
+  //     img: brandLogo3,
+  //     linkURL: "https://phire.in/home/",
+  //   },
+  //   {
+  //     img: brandLogo4,
+  //     linkURL: "https://www.thesmartbridge.com",
+  //   },
+  //   {
+  //     img: brandLogo5,
+  //     linkURL: "https://bassure.com/",
+  //   },
+  //   {
+  //     img: brandLogo6,
+  //     linkURL: "https://www.verandavarsity.com",
+  //   },
+  //   {
+  //     img: brandLogo7,
+  //     linkURL: "https://www.tapasyaedu.com",
+  //   },
+  //   {
+  //     img: brandLogo8,
+  //     linkURL: "https://verandak12.com",
+  //   },
+  //   {
+  //     img: brandLogo9,
+  //     linkURL: "https://verandaias.com",
+  //   },
+  //   {
+  //     img: brandLogo10,
+  //     linkURL: "https://verandahighered.com",
+  //   },
+  //   {
+  //     img: brandLogo11,
+  //     linkURL: "https://jkshahclasses.com",
+  //   },
+  //   {
+  //     img: brandLogo12,
+  //     linkURL: "https://verandarace.com",
+  //   },
+  // ];
 
   const courseData = {
     content1: {
@@ -211,6 +231,9 @@ const LanguageAcademy = () => {
         containerLogo7,
         containerLogo8,
         containerLogo9,
+        containerLogo10,
+        containerLogo11,
+        containerLogo12,
       ],
     },
     content2: {
@@ -244,32 +267,6 @@ const LanguageAcademy = () => {
 
   const academic = [aca_1, aca_2, aca_3, aca_4, aca_5, aca_6, aca_7, aca_8];
 
-  const Awards = [
-    {
-      img: imgOne,
-      title: "Double Advantage Campaign",
-    },
-    {
-      img: imgTwo,
-      title: "India's Rising Star 2024 in the edtech space by the Brand Story ",
-    },
-    {
-      img: imgThree,
-      title: "Tamil Nadu Disruptors 2024 Award by YourStory Media ",
-    },
-    {
-      img: imgFour,
-      title: "Remarkable brands of Tamil Nadu Award",
-    },
-    {
-      img: imgFive,
-      title: "The Brand, Advertising & Marketing Summit 2023",
-    },
-    {
-      img: imgThree,
-      title: "Iconic Brands of India 2023",
-    },
-  ];
   return (
     <>
       <div className="rbt-banner-area rbt-banner-7 bg-gradient-1 theme-shape header-transperent-spacer">
@@ -408,7 +405,15 @@ const LanguageAcademy = () => {
                                               ]
                                             }
                                           />
-                                        </span> <span style={{fontSize:"14px", fontWeight:"bold"}}>{item?.data}</span>
+                                        </span>{" "}
+                                        <span
+                                          style={{
+                                            fontSize: "14px",
+                                            fontWeight: "bold",
+                                          }}
+                                        >
+                                          {item?.data}
+                                        </span>
                                       </h3>
                                       <span className="subtitle">
                                         {item.text}

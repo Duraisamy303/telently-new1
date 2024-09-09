@@ -57,7 +57,7 @@ const CallToActionSix = () => {
           <div className="call-to-btn text-start text-xl-end">
             <Link
               className="rbt-btn btn-white hover-icon-reverse"
-              href="#"
+              href="contact"
               style={{
                 padding: "0px 30px",
                 height: "54px",

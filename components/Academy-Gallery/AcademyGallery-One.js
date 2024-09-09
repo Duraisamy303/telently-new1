@@ -21,14 +21,14 @@ const AcademyGalleryOne = () => {
         <div className="col-lg-7">
           <div className="inner pl--50 pl_sm--0 pl_md--0 pl_lg--0">
             <div className="section-title text-start">
-              <h2 className="title sectionHeading" >Why Talentely?</h2>
+              <h2 className="title sectionHeading">Why Talentely?</h2>
               <p className="description mt--10">
                 <strong>Talentely integrates</strong> institutions, corporates,
                 and talents, engages students, provides skill insights, offers
                 diverse learning options, and rewards hard work, making it the
                 ideal choice for hiring.
               </p>
-              <div className="plan-offer-list-wrapper">
+              {/* <div className="plan-offer-list-wrapper">
                 <div>
                   <h5 className="mb--20" style={{fontWeight:"normal"}}>
                     Access to Largest Pre-Trained Talent with Zero Cost
@@ -98,6 +98,64 @@ const AcademyGalleryOne = () => {
                     <li>
                       <i className="feather-arrow-right" style={{color:"#3EB75E",fontSize:"20px"}}></i> Spot Hidden Gems in Tier
                       2 &amp; 3 Institutions
+                    </li>
+                  </ul>
+                </div>
+              </div> */}
+
+              <div className="mt--20 why-talentely-list-section">
+                <h5 className="mb--15" style={{ fontWeight: "normal" }}>
+                  Our Corporate Solutions:
+                </h5>
+                <div className="mt--30">
+                  <ul
+                    className="rbt-list-style-2 rbt-generic-list-control-section"
+                    style={{ display: "block" }}
+                  >
+                    <li
+                      className="rbt-generic-list-control"
+                      style={{  marginTop:"10px" }}
+                    >
+                      <i className="feather-check"></i>{" "}
+                      <span style={{ fontSize: "16px" }}>
+                        Pre-trained Interns + Fulltime Graduates for Immediate
+                        Deployment
+                      </span>
+                    </li>
+                    <li  style={{  marginTop:"15px" }}>
+                      <i className="feather-check"></i>
+                      <span style={{ fontSize: "16px" }}>
+                        Experienced Certified Professionals
+                      </span>
+                    </li>
+
+                    <li  style={{  marginTop:"15px" }}>
+                      <i className="feather-check"></i>
+                      <span style={{ fontSize: "16px" }}>
+                        Corporate Trainings (Technical, Domain, Leadership &
+                        Softskills)
+                      </span>
+                    </li>
+
+                    <li  style={{  marginTop:"15px" }}>
+                      <i className="feather-check"></i>
+                      <span style={{ fontSize: "16px" }}>
+                        Hire-Transform-Deploy
+                      </span>
+                    </li>
+
+                    <li  style={{  marginTop:"15px" }}>
+                      <i className="feather-check"></i>
+                      <span style={{ fontSize: "16px" }}>
+                        Niche Certification Courses
+                      </span>
+                    </li>
+
+                    <li  style={{  marginTop:"15px" }}>
+                      <i className="feather-check"></i>
+                      <span style={{ fontSize: "16px" }}>
+                        Fresher Sourcing & E2E Hiring Support for Corporates
+                      </span>
                     </li>
                   </ul>
                 </div>

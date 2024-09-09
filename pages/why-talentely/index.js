@@ -17,6 +17,8 @@ import AcademyGalleryOne from "@/components/Academy-Gallery/AcademyGallery-One";
 import TeamNine from "@/components/Team/TeamNine";
 import AboutCallToAction from "@/components/Call-To-Action/AboutCallToAction";
 import WhyTalentelyCallToAction from "@/components/Call-To-Action/WhyTalentelyCallToAction";
+import CallToActionSix from "@/components/Call-To-Action/CallToAction-Six";
+import ServiceEleven from "@/components/Services/Service-Eleven";
 
 const WhyTAlentely = () => {
   return (
@@ -38,14 +40,41 @@ const WhyTAlentely = () => {
             </div>
           </div>
 
-          <div className="rbt-team-area bg-color-white rbt-section-gap2Bottom-new ">
+          <div className="service-wrapper  bg-theme-lightblue ptb--60">
+            <div className="container">
+              <div className="row mb--60">
+                <div className="col-lg-12">
+                  <div className="section-title text-center">
+                    <span className="subtitle bg-secondary-opacity">
+                    We provide 
+                    </span>
+                    <h2 className="title">We provide </h2>
+                    {/* <p className="description has-medium-font-size mt--20">
+                      There are many variations of passages of the Ipsum
+                      available, but the majority have suffered alteration in
+                      some form, by injected humour.
+                    </p> */}
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-12">
+                  <ServiceEleven isTitle={false} />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="rbt-team-area bg-color-white ptb--60 ">
             <TeamNine />
           </div>
 
-          <div className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own">
-            <WhyTalentelyCallToAction />
+          <div
+            className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own"
+            style={{ padding: "60px" }}
+          >
+            <CallToActionSix />
           </div>
-
           <FooterThree />
         </Context>
       </Provider>
