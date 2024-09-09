@@ -39,9 +39,7 @@ const ServiceEleven = () => {
                           />
                         </div>
                         <div className="content">
-                          <h5 className="title">
-                            <Link href="#">{item.title}</Link>
-                          </h5>
+                          <h5 className="title">{item.title}</h5>
                           <ul className="rbt-list-style-3">
                             {item.list.map((listItem, innerIndex) => (
                               <li key={innerIndex}>
@@ -65,9 +63,7 @@ const ServiceEleven = () => {
                             />
                           </div>
                           <div className="content">
-                            <h5 className="title">
-                              <Link href="#">{item.title}</Link>
-                            </h5>
+                            <h5 className="title">{item.title}</h5>
                             <ul className="rbt-list-style-3">
                               {item.list.map((listItem, innerIndex) => (
                                 <li key={innerIndex}>

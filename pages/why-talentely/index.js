@@ -42,13 +42,13 @@ const WhyTAlentely = () => {
 
           <div className="service-wrapper  bg-theme-lightblue ptb--60">
             <div className="container">
-              <div className="row mb--60">
+              <div className="row mb--40">
                 <div className="col-lg-12">
                   <div className="section-title text-center">
                     <span className="subtitle bg-secondary-opacity">
                     We provide 
                     </span>
-                    <h2 className="title">We provide </h2>
+                    <h2 className="title sectionHeading">We provide </h2>
                     {/* <p className="description has-medium-font-size mt--20">
                       There are many variations of passages of the Ipsum
                       available, but the majority have suffered alteration in
