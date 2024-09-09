@@ -113,9 +113,7 @@
                 &.active {
                     color: var(--color-primary) !important;
                 }
-                i {
-                    display: none;
-                }
+               
             }
             & + li {
                 border-top: 1px solid var(--color-border);
