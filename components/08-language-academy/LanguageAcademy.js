@@ -79,9 +79,24 @@ import imgOne from "../../public/images/awards/awards-img-1.jpg";
 import imgTwo from "../../public/images/awards/awards-img-2.jpg";
 import imgThree from "../../public/images/awards/awards-img-3.jpg";
 import CourseTagTwo from "../Common/CourseTag-Two";
+import CounterTwo from "../Counters/Counter-Two";
+
+import dynamic from "next/dynamic";
+
+const Odometer = dynamic(() => import("react-odometerjs"), {
+  ssr: false,
+  loading: () => <span>00</span>,
+});
+
+import useFetch from "@/context/useFetch";
+
+import CounterData from "../../data/elements/counter.json";
 
 const LanguageAcademy = () => {
   let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.languageAcademy));
+
+  const { values } = useFetch(CounterData, "counterTwo");
+
   useEffect(() => {
     sal({
       threshold: 0.01,
@@ -280,7 +295,10 @@ const LanguageAcademy = () => {
                     </h3>
                     <div className="rbt-like-total">
                       <div className="profile-share">
-                        <div className="avatar-group" style={{display: "flex", marginRight: "20px"}}>
+                        <div
+                          className="avatar-group"
+                          style={{ display: "flex", marginRight: "20px" }}
+                        >
                           <div className="avatar">
                             <Image
                               src={client1}
@@ -344,7 +362,7 @@ const LanguageAcademy = () => {
                 </div>
               </div>
               <div className="col-lg-6 order-1 order-lg-2">
-                <div className="row g-5">
+                {/* <div className="row g-5">
                   <Card
                     col="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
                     mt=""
@@ -354,6 +372,53 @@ const LanguageAcademy = () => {
                     isUser={false}
                     data={data}
                   />
+                </div> */}
+                <div className="conter-style-2">
+                  {CounterData &&
+                    CounterData.counterTwo.map((data, index) => (
+                      <div className="container" key={index}>
+                        <div className="row g-5 align-items-center">
+                          <div className="row row--30">
+                            {data.body.map((item, innerIndex) => (
+                              <div
+                                className={`col-lg-6 col-md-6 col-sm-6 col-12 ${item.mt}`}
+                                key={innerIndex}
+                              >
+                                <div className="rbt-counterup rbt-hover-03">
+                                  <div className="inner">
+                                    <div className="icon">
+                                      <Image
+                                        src={item.img}
+                                        width={100}
+                                        height={100}
+                                        alt="Icons Images"
+                                      />
+                                    </div>
+                                    <div className="content">
+                                      <h3 className="counter">
+                                        <span className="odometer">
+                                          <Odometer
+                                            value={
+                                              values[
+                                                index * data.body.length +
+                                                  innerIndex
+                                              ]
+                                            }
+                                          />
+                                        </span> <span style={{fontSize:"14px", fontWeight:"bold"}}>{item?.data}</span>
+                                      </h3>
+                                      <span className="subtitle">
+                                        {item.text}
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
                 </div>
               </div>
             </div>

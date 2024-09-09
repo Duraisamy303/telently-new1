@@ -64,28 +64,18 @@
       ],
       "body": [
         {
-          "text": "Learners & counting",
-          "num": 500,
+          "text": "Years of Experience in Education",
+          "data":"",
+          "num": 40,
           "img": "/images/icons/counter-01.png",
           "mt": ""
         },
         {
-          "text": "Courses & Video",
-          "num": 800,
+          "text": "Students Trained",
+          "data":"Lakhs",
+          "num": 20,
           "img": "/images/icons/counter-02.png",
           "mt": "mt--60"
-        },
-        {
-          "text": "Certified Students",
-          "num": 1000,
-          "img": "/images/icons/counter-03.png",
-          "mt": "mt_mobile--40"
-        },
-        {
-          "text": "Registered Enrolls",
-          "num": 100,
-          "img": "/images/icons/counter-04.png",
-          "mt": "mt--60 mt_mobile--40"
         }
       ]
     }
@@ -107,7 +97,7 @@
           "pink": false,
           "secondary": false,
           "violet": false,
-          "unit":"Months"
+          "unit": "Months"
         },
         {
           "id": 2,
@@ -120,7 +110,7 @@
           "primary": false,
           "secondary": false,
           "violet": false,
-          "unit":"Hours"
+          "unit": "Hours"
         },
         {
           "id": 3,
@@ -133,7 +123,7 @@
           "primary": false,
           "pink": false,
           "violet": false,
-          "unit":"Hours"
+          "unit": "Hours"
         },
         {
           "id": 4,
@@ -146,7 +136,7 @@
           "primary": false,
           "pink": false,
           "secondary": false,
-          "unit":"Projects"
+          "unit": "Projects"
         }
       ]
     }
