@@ -542,8 +542,8 @@
       "body": [
         {
           "title": "Access to Largest Pre-Trained Talent with Zero Cost",
-          "imgFront": "/images/flip/kindergarten-01-front.jpg",
-          "img": "/images/flip/kindergarten-01-back.jpg",
+          "imgFront": "/images/why-talentely/pre-trained-talent.jpg",
+          "img": "/images/why-talentely/pre-trained-talent.jpg",
           "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
           "bgOne": true,
           "bgTwo": false,
@@ -570,8 +570,8 @@
         },
         {
           "title": "360° Profiled Candidates",
-          "imgFront": "/images/flip/kindergarten-02-front.jpg",
-          "img": "/images/flip/kindergarten-02-back.jpg",
+          "imgFront": "/images/why-talentely/profiled-canditates.jpg",
+          "img": "/images/why-talentely/profiled-canditates.jpg",
           "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
           "bgTwo": true,
           "bgOne": false,
@@ -602,8 +602,8 @@
         },
         {
           "title": "Pan India Recruitment Support",
-          "imgFront": "/images/flip/kindergarten-03-front.jpg",
-          "img": "/images/flip/kindergarten-03-back.jpg",
+          "imgFront": "/images/why-talentely/recruitment-support.jpg",
+          "img": "/images/why-talentely/recruitment-support.jpg",
           "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
           "bgThree": true,
           "bgOne": false,
