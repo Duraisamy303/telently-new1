@@ -63,7 +63,7 @@ const ContactForm = ({ gap }) => {
           <div className="col-lg-6">
             <div className="rbt-contact-form contact-form-style-1 max-width-auto">
               <div className="section-title text-start">
-                <span className="subtitle bg-primary-opacity">EDUCATION FOR EVERYONE</span>
+                <span className="subtitle bg-primary-opacity">4500+ Trained developers available</span>
               </div>
               <h3 className="title sectionHeading" >Hire with Talentely</h3>
               <form onSubmit={handleSubmit} className="rainbow-dynamic-form max-width-auto">

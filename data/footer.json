@@ -1,7 +1,7 @@
 {
   "footerOne": [
     {
-      "description": "HireNow: 4500+ Trained developers available",
+      "description": "Save Time and Costs with Access to Fresh Graduates from Top Universities and NIRF Institutions.",
       "phone": "+91 9894261122",
       "mail": "hiretalents@verandalearning.com",
       "address": "Dui gravida ut viverra montes primis aliquam.",
@@ -30,7 +30,6 @@
         }
       ],
       "socialLink": [
-        
         {
           "icon": "feather-linkedin",
           "link": "https://www.linkedin.com/company/talentely/"

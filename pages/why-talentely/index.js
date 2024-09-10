@@ -45,9 +45,9 @@ const WhyTAlentely = () => {
               <div className="row mb--40">
                 <div className="col-lg-12">
                   <div className="section-title text-center">
-                    <span className="subtitle bg-secondary-opacity">
+                    {/* <span className="subtitle bg-secondary-opacity">
                     We Provide 
-                    </span>
+                    </span> */}
                     <h2 className="title sectionHeading">We Provide </h2>
                     {/* <p className="description has-medium-font-size mt--20">
                       There are many variations of passages of the Ipsum
@@ -67,6 +67,10 @@ const WhyTAlentely = () => {
 
           <div className="rbt-team-area bg-color-white ptb--60 ">
             <TeamNine />
+          </div>
+
+          <div className="rbt-team-area bg-color-extra2 rbt-section-gap">
+            <TeamThree />
           </div>
 
           <div

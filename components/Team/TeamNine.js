@@ -1,11 +1,7 @@
 import Image from "next/image";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import { Pagination } from "swiper/modules";
-
 import TeamData from "../../data/elements/team.json";
-import TeamHead from "./TeamHead";
 
 const TeamNine = () => {
   return (
