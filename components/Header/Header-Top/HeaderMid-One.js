@@ -142,14 +142,14 @@ const HeaderMidOne = ({
                 <div className="header-info">
                   <Link
                     className="rbt-btn rbt-switch-btn btn-gradient btn-sm hover-transform-none"
-                    href="#"
+                    href="https://lms.talentely.com/login" target="_blank"
                     style={{
                       fontSize: "12px",
                       height: "38px",
                       lineHeight: "38px",
                     }}
                   >
-                    <span data-text="Get Free Course">Login/Register</span>
+                    <span data-text="Student Login">Student Login</span>
                   </Link>
                 </div>
 

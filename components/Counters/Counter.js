@@ -11,7 +11,7 @@ const Odometer = dynamic(() => import("react-odometerjs"), {
   loading: () => <span>00</span>,
 });
 
-const Counter = ({ isDesc, head,data }) => {
+const Counter = ({ isDesc, head, data }) => {
   console.log("data: ", data);
   const { values } = useFetch(data, "counterOne");
 
@@ -55,7 +55,10 @@ const Counter = ({ isDesc, head,data }) => {
                       </div> */}
                       <div className="content">
                         <h3 className="counter">
-                          <span className="odometer" style={{fontWeight:"700 !important"}}>
+                          <span
+                            className="odometer"
+                            style={{ fontWeight: "700 !important" }}
+                          >
                             <Odometer
                               value={
                                 values[index * data.body.length + innerIndex]
@@ -63,7 +66,11 @@ const Counter = ({ isDesc, head,data }) => {
                             />
                           </span>
                         </h3>
-                        <span className="subtitle" style={{color:"black", fontSize:"16px"}}>{item.text}</span>
+                        <span
+                          className="subtitle"
+                          style={{ color: "black", fontSize: "16px" }}
+                          dangerouslySetInnerHTML={{ __html: item.text }}
+                        ></span>
                       </div>
                     </div>
                   </div>

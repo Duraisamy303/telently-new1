@@ -22,17 +22,9 @@ const CopyRight = () => {
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <ul className="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
+              
                 <li>
-                  <Link href="#">Terms of service</Link>
-                </li>
-                <li>
-                  <Link href="/">Privacy policy</Link>
-                </li>
-                <li>
-                  <Link href="#">Subscription</Link>
-                </li>
-                <li>
-                  <Link href="#">Login & Register</Link>
+                  <Link href="https://lms.talentely.com/login" target="_blank">Student Login</Link>
                 </li>
               </ul>
             </div>

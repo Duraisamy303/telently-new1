@@ -78,6 +78,7 @@ const Odometer = dynamic(() => import("react-odometerjs"), {
 import useFetch from "@/context/useFetch";
 
 import CounterData from "../../data/elements/counter.json";
+import CardFive from "../Cards/Card-Five";
 
 const LanguageAcademy = () => {
   let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.languageAcademy));
@@ -151,7 +152,7 @@ const LanguageAcademy = () => {
             top: false,
           },
           {
-            text: "Freshers Ready to Deploy",
+            text: "Freshers Ready<br/> to Deploy",
             num: 4500,
             top: true,
           },
@@ -219,7 +220,7 @@ const LanguageAcademy = () => {
   const courseData = {
     content1: {
       img: recognize1,
-      title: `Talentely is recognized and accredited by leading industry & Education bodies, including:`,
+      title: `Talentely is recognized and accredited by leading Industry & Education bodies, including:`,
       desc: "we continuously strive for excellence - Our global recognition validates our commitment to sustaining standards in imparting education.",
       imgs: [
         containerLogo1,
@@ -326,11 +327,9 @@ const LanguageAcademy = () => {
                         </div>
                         <div className="more-author-text">
                           <h5 className="total-join-students">
-                            Hire now 4500+ trained developers
+                            4500+ Trained Developers
                           </h5>
-                          <p className="subtitle">
-                            Have a new ideas every week.
-                          </p>
+                          <p className="subtitle">Ready to Deploy</p>
                         </div>
                       </div>
                     </div>
@@ -407,11 +406,13 @@ const LanguageAcademy = () => {
                                           />
                                         </span>{" "}
                                         <span
+                                          className="laksh-span-text"
                                           style={{
                                             fontSize: "14px",
-                                            fontWeight: "bold", position: "absolute",
+                                            fontWeight: "bold",
+                                            position: "absolute",
                                             left: "40px",
-                                            bottom: "-18px"
+                                            bottom: "-18px",
                                           }}
                                         >
                                           {item?.data}
@@ -480,7 +481,7 @@ const LanguageAcademy = () => {
                   <h2 className="title sectionHeading">
                     Shaping Careers and Connecting
                     <br />
-                    Top Talent Since 2010
+                    Top Talent Since 1983
                   </h2>
                 </div>
                 <p
@@ -523,6 +524,7 @@ const LanguageAcademy = () => {
           </div>
         </div>
       </div>
+
       {/* [#37A282] */}
       <div className="rbt-course-banner-area bg-color-green ptb--60">
         <div className="container">
@@ -583,7 +585,7 @@ const LanguageAcademy = () => {
         </div>
       </div>
 
-      <div className="rbt-program-area ptb--60 bg-color-white" id="program">
+      {/* <div className="rbt-program-area ptb--60 bg-color-white" id="program">
         <div className="container">
           <div className="row g-5 align-items-end mb--40">
             <div className="section-title text-center">
@@ -626,6 +628,28 @@ const LanguageAcademy = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </div> */}
+
+      <div className="rbt-course-area bg-color-white ptb--60">
+        <div className="container">
+          <div className="row mb--20 ">
+            <div className="col-lg-12">
+              <div className="section-title text-center">
+                <span className="subtitle bg-primary-opacity">
+                Awards & Accolades
+                </span>
+                <h2 className="title sectionHeading">Excellence in Learning</h2>
+                {/* <p className="description has-medium-font-size mt--20 mb--0">
+                  Language Academic?
+                </p> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="row g-5">
+            <CardFive data={Awards} />
           </div>
         </div>
       </div>

@@ -184,6 +184,20 @@
 }
 
 
+.laksh-span-text{
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 40px;
+    bottom: -18px;
+}
+
+@media(max-width:500px){
+    .laksh-span-text{
+        bottom: -4px;
+    }
+}
+
 
 
 

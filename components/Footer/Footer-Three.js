@@ -15,12 +15,15 @@ const FooterThree = () => {
   return (
     <>
       <footer className="rbt-footer footer-style-1 ">
-        <div className="footer-top" style={{paddingTop:"60px",paddingBottom:"60px"}}>
+        <div
+          className="footer-top"
+          style={{ paddingTop: "60px", paddingBottom: "60px" }}
+        >
           <div className="container">
             {FooterData &&
               FooterData.footerOne.map((footer, index) => (
                 <div className="row row--15 mt_dec--30" key={index}>
-                  <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
+                  <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
                     <div className="footer-widget">
                       <div className="logo">
                         <Link href="/">
@@ -44,15 +47,17 @@ const FooterThree = () => {
                         </Link>
                       </div>
 
-                      <p className="description mt--20 color-white">{footer.description}</p>
+                      <p className="description mt--20 color-white">
+                        {footer.description}
+                      </p>
 
                       <div className="contact-btn mt--30">
                         <Link
                           className="rbt-btn-new hover-icon-reverse  radius-round"
-                          href="#"
+                          href="contact"
                         >
                           <div className="icon-reverse-wrapper">
-                            <span className="btn-text">Contact With Us</span>
+                            <span className="btn-text">Contact Us</span>
                             <span className="btn-icon">
                               <i className="feather-arrow-right"></i>
                             </span>
@@ -70,7 +75,7 @@ const FooterThree = () => {
                     title="Quick Links"
                     footerType={footer.usefulLinks}
                   />
-                   {/* <SingleFooter
+                  {/* <SingleFooter
                     classOne="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12 mt--30"
                     title="Our Companies"
                     footerType={footer.usefulLinks}
@@ -82,7 +87,7 @@ const FooterThree = () => {
                     footerType={footer.ourCompany}
                   />
 
-                  <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                  <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
                     <div className="footer-widget">
                       <h5 className="ft-title-new">Get Contact</h5>
                       <ul className="ft-link">
@@ -92,7 +97,7 @@ const FooterThree = () => {
                         </li>
                         <li>
                           <span>E-mail:</span>{" "}
-                          <Link href="mailto:support@talentely.com">
+                          <Link href="mailto:hiretalents@verandalearning.com">
                             {footer.mail}
                           </Link>
                         </li>
@@ -103,7 +108,7 @@ const FooterThree = () => {
                       <ul className="social-icon social-default icon-naked justify-content-start mt--20">
                         {footer.socialLink.map((value, innerIndex) => (
                           <li key={innerIndex}>
-                            <Link href={value.link}>
+                            <Link href={value.link} target="_blank">
                               <i className={`${value.icon} color-white`}></i>
                             </Link>
                           </li>

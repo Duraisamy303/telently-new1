@@ -27,7 +27,7 @@ const Nav = () => {
       <ul className="mainmenu">
         <li className="with-megamenu has-menu-child-item position-static">
           <Link className={` color-white`} href="/">
-            <i className="feather-home"></i>
+           About Us
           </Link>
         </li>
 
