@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import img from "../../public/images/contact/contact-img.jpg";
+import img from "../../public/images/contact/contact-image.png";
 
 const ContactForm = ({ gap }) => {
   const [formData, setFormData] = useState({
