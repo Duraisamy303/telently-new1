@@ -23,7 +23,7 @@ const ContactForm = ({ gap }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('formData', formData)
+    console.log("formData", formData);
     // try {
     //   const response = await fetch("https://formspree.io/f/xkgwerqo", {
     //     method: "POST",
@@ -57,16 +57,22 @@ const ContactForm = ({ gap }) => {
         <div className="row g-5">
           <div className="col-lg-6">
             <div className="thumbnail">
-              <Image className="w-100 radius-6" src={img} alt="Contact Images" />
+              <Image
+                className="w-100 radius-6"
+                src={img}
+                alt="Contact Images"
+              />
             </div>
           </div>
           <div className="col-lg-6">
             <div className="rbt-contact-form contact-form-style-1 max-width-auto">
               <div className="section-title text-start">
-                <span className="subtitle bg-primary-opacity">4500+ Trained developers available</span>
+                <span className="subtitle bg-primary-opacity">
+                  4500+ Trained developers available
+                </span>
               </div>
-              <h3 className="title sectionHeading" >Hire with Talentely</h3>
-              <form onSubmit={handleSubmit} className="rainbow-dynamic-form max-width-auto">
+              {/* <h3 className="title sectionHeading">Hire with Talentely</h3> */}
+              {/* <form onSubmit={handleSubmit} className="rainbow-dynamic-form max-width-auto">
                 <div className="form-group">
                   <input
                     name="name"
@@ -143,7 +149,16 @@ const ContactForm = ({ gap }) => {
                   </button>
                 </div>
               </form>
-              {status && <p>{status}</p>}
+              {status && <p>{status}</p>} */}
+              <div>
+                <iframe
+                 
+                  src="https://irepute.in/talentely-contact-form/"
+                  allowFullScreen
+                  title="Video Title"
+                  style={{ width: "100%", height: "670px" }}
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
