@@ -39,7 +39,7 @@ const EventCarouse = () => {
         {TeamData.whyTalentely.map((data, index) => (
           <SwiperSlide className="swiper-wrapper" key={index}>
             {data.details.map((item, innerIndex) => (
-              <div className="swiper-slide">
+              <div className="swiper-slide" key={innerIndex}>
                 <div className="single-slide">
                   <div className="rbt-card event-grid-card variation-01 rbt-hover">
                     <div className="rbt-card-img">
