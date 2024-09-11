@@ -405,16 +405,7 @@ const LanguageAcademy = () => {
                                             }
                                           />
                                         </span>{" "}
-                                        <span
-                                          className="laksh-span-text"
-                                          style={{
-                                            fontSize: "14px",
-                                            fontWeight: "bold",
-                                            position: "absolute",
-                                            left: "40px",
-                                            bottom: "-18px",
-                                          }}
-                                        >
+                                        <span className="laksh-span-text">
                                           {item?.data}
                                         </span>
                                       </h3>
@@ -638,7 +629,7 @@ const LanguageAcademy = () => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity">
-                Awards & Accolades
+                  Awards & Accolades
                 </span>
                 <h2 className="title sectionHeading">Excellence in Learning</h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">

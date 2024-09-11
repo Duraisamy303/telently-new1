@@ -19,6 +19,8 @@ import AboutCallToAction from "@/components/Call-To-Action/AboutCallToAction";
 import WhyTalentelyCallToAction from "@/components/Call-To-Action/WhyTalentelyCallToAction";
 import CallToActionSix from "@/components/Call-To-Action/CallToAction-Six";
 import ServiceEleven from "@/components/Services/Service-Eleven";
+import CategoryThree from "@/components/Category/CategoryThree";
+import EventCarouse from "@/components/Events/EventCarouse";
 
 const WhyTAlentely = () => {
   return (
@@ -34,13 +36,13 @@ const WhyTAlentely = () => {
           <MobileMenu />
           <Cart />
 
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-about-area about-style-1  bg-theme-lightblue rbt-section-gap">
             <div className="container">
               <AcademyGalleryOne />
             </div>
           </div>
 
-          <div className="service-wrapper  bg-theme-lightblue ptb--60">
+          <div className="service-wrapper  bg-color-white ptb--60">
             <div className="container">
               <div className="row mb--40">
                 <div className="col-lg-12">
@@ -65,11 +67,26 @@ const WhyTAlentely = () => {
             </div>
           </div>
 
-          <div className="rbt-team-area bg-color-white ptb--60 ">
+          {/* <div className="rbt-team-area bg-color-white ptb--60 ">
             <TeamNine />
+          </div> */}
+
+          <div className="rbt-event-area bg-theme-lightblue ptb--60">
+            <div className="container">
+              <div className="row mb--40">
+                <div className="section-title text-center">
+                  <h2 className="title sectionHeading">Benefits</h2>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-12">
+                  <EventCarouse />
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="rbt-team-area bg-color-extra2 rbt-section-gap">
+          <div className="rbt-team-area rbt-section-gap">
             <TeamThree />
           </div>
 

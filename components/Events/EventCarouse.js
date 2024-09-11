@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
 import EventData from "../../data/events.json";
+import TeamData from "../../data/elements/team.json";
 
 const EventCarouse = () => {
   return (
@@ -20,8 +21,8 @@ const EventCarouse = () => {
           clickable: true,
         }}
         navigation={{
-          nextEl: ".rbt-arrow-left",
           prevEl: ".rbt-arrow-right",
+          nextEl: ".rbt-arrow-left",
         }}
         breakpoints={{
           481: {
@@ -35,60 +36,47 @@ const EventCarouse = () => {
           },
         }}
       >
-        {EventData.events.slice(3, 10).map((data, index) => (
+        {TeamData.whyTalentely.map((data, index) => (
           <SwiperSlide className="swiper-wrapper" key={index}>
-            <div className="swiper-slide">
-              <div className="single-slide">
-                <div className="rbt-card event-grid-card variation-01 rbt-hover">
-                  <div className="rbt-card-img">
-                    <Link href={`/event-details/${data.id}`}>
-                      <Image
-                        src={data.img}
-                        width={710}
-                        height={480}
-                        alt="Card image"
-                      />
-                      <div className="rbt-badge-3 bg-white">
-                        <span>{data.badgeDate}</span>
-                        <span>{data.badgeYear}</span>
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="rbt-card-body">
-                    <ul className="rbt-meta">
-                      <li>
-                        <i className="feather-map-pin"></i> {data.location}
-                      </li>
-                      <li>
-                        <i className="feather-clock"></i> {data.time}
-                      </li>
-                    </ul>
-                    <h4 className="rbt-card-title">
-                      <Link href={`/event-details/${data.id}`}>
-                        {data.title}
+            {data.details.map((item, innerIndex) => (
+              <div className="swiper-slide">
+                <div className="single-slide">
+                  <div className="rbt-card event-grid-card variation-01 rbt-hover">
+                    <div className="rbt-card-img">
+                      <Link href={`/event-details/${item.id}`}>
+                        <Image
+                          src={item.img}
+                          width={710}
+                          height={480}
+                          alt="Card image"
+                        />
                       </Link>
-                    </h4>
-
-                    <div className="read-more-btn">
-                      <Link
-                        className="rbt-btn btn-border hover-icon-reverse btn-sm radius-round"
-                        href={`/event-details/${data.id}`}
+                    </div>
+                    <div className="content mt--20 text-center">
+                      <h3
+                        className="title"
+                        style={{
+                          fontSize: "24px",
+                          fontWeight: "normal",
+                          marginBottom: "10px",
+                        }}
                       >
-                        <span className="icon-reverse-wrapper">
-                          <span className="btn-text">Get Ticket</span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                        </span>
-                      </Link>
+                        {item.title}
+                      </h3>
+                      <h6
+                        className="subtitle theme-gradient"
+                        style={{ marginBottom: "7px " }}
+                      >
+                        {item.subtitle}
+                      </h6>
+                      <span className="team-form" style={{ fontSize: "14px" }}>
+                        <span className="location">{item.des}</span>
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            ))}
           </SwiperSlide>
         ))}
 

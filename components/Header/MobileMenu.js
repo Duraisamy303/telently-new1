@@ -58,7 +58,7 @@ const MobileMenu = () => {
               </li>
               <li>
                 <a href="tel:9894261122">
-                  <i className="feather-phone"></i> 9894261122
+                  <i className="feather-phone"></i>+91 9894261122
                 </a>
               </li>
             </ul>

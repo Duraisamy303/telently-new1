@@ -187,6 +187,7 @@ export const Awards = [
   {
     img: AwardImgFive,
     title: "The Brand, Advertising & Marketing Summit 2023",
+    subTitle: "We are thrilled to announce that verandaRACE has been honored at the 6th edition of the ET Edge Iconic Brands of India Event held in Mumbai on September 25, 2023.",
   },
   {
     img: AwardImgSix,
