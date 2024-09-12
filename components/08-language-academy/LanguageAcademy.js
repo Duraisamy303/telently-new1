@@ -280,13 +280,13 @@ const LanguageAcademy = () => {
                   style={{ display: "flex", justifyContent: "center" }}
                 >
                   <div className="inner">
-                    <div className="section-title text-start">
+                    <div className="section-title text-center">
                       <span className="subtitle bg-primary-opacity">
                         Transform Your Hiring Process with Talentely
                       </span>
                     </div>
 
-                    <h3 className="title">
+                    <h3 className="title mobile-center">
                       Access Top Talent,
                       <br />
                       <span className="theme-gradient"> No Costs</span>
@@ -295,9 +295,9 @@ const LanguageAcademy = () => {
                       <span> Recruitment Cycles</span>
                     </h3>
                     <div className="rbt-like-total">
-                      <div className="profile-share">
+                      <div className="profile-share mobile-center">
                         <div
-                          className="avatar-group"
+                          className="avatar-group mobile-center"
                           style={{ display: "flex", marginRight: "20px" }}
                         >
                           <div className="avatar">
@@ -325,7 +325,7 @@ const LanguageAcademy = () => {
                             />
                           </div>
                         </div>
-                        <div className="more-author-text">
+                        <div className="more-author-text mobile-center">
                           <h5 className="total-join-students">
                             4500+ Trained Developers
                           </h5>
@@ -333,7 +333,7 @@ const LanguageAcademy = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="rbt-button-group justify-content-start mt--30">
+                    <div className="rbt-button-group justify-content-start mt--30 mobile-center">
                       <Link
                         className="rbt-btn btn-gradient rbt-switch-btn"
                         href="/contact"

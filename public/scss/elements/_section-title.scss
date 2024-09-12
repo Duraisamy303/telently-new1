@@ -164,7 +164,15 @@
   font-weight: 500;
 
   @media #{$sm-layout} {
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 26px;
+    line-height: 36px;
   }
+}
+
+  .mobile-center{
+
+    @media #{$sm-layout}{
+      text-align: center;
+      justify-content: center !important  ;
+    }
 }
