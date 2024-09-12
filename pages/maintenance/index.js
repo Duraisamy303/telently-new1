@@ -31,7 +31,7 @@ const MaintenancePage = () => {
                     className="countdown justify-content-center"
                     data-date="2025-12-30"
                   >
-                    <CountDown targetDate="2025-12-30" targetTime="18:00:00" />
+                    <CountDown targetDate="2024-12-30" targetTime="18:00:00" />
                   </div>
                 </div>
               </div>
