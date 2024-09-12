@@ -274,7 +274,7 @@ const LanguageAcademy = () => {
         <div className="wrapper w-100">
           <div className="container">
             <div className="row g-5 justify-content-between align-items-center">
-              <div className="col-lg-6 order-2 order-lg-1">
+              <div className="col-lg-6 ">
                 <div
                   className="content"
                   style={{ display: "flex", justifyContent: "center" }}
@@ -360,7 +360,7 @@ const LanguageAcademy = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 order-1 order-lg-2">
+              <div className="col-lg-6">
                 {/* <div className="row g-5">
                   <Card
                     col="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
