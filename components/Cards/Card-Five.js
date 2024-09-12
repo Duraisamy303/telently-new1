@@ -36,7 +36,7 @@ const CardFive = (props) => {
                   />
                 </div>
                 <div className="mt--20">
-                  <h5 className="rbt-card-title" style={{fontWeight:'500'}}>{item.title}</h5>
+                  <h5 className="rbt-card-title" style={{fontWeight:'500'}} dangerouslySetInnerHTML={{__html:item.title}}></h5>
                   <p>{item.subTitle}</p>
                 </div>
               </div>

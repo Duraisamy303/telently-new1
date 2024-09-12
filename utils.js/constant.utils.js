@@ -180,7 +180,7 @@ export const Awards = [
   },
   {
     img: AwardImgTwo,
-    title: "India’s rising star 2024 Award",
+    title: "India’s rising star 2024 <b>Award</b>",
   },
   {
     img: AwardImgThree,
