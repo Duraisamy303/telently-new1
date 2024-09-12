@@ -66,7 +66,7 @@ const CallToActionSix = () => {
               }}
             >
               <span className="icon-reverse-wrapper">
-                <span className="btn-text">Know More</span>
+                <span className="btn-text">Hire Now</span>
                 <span className="btn-icon">
                   <i className="feather-arrow-right"></i>
                 </span>

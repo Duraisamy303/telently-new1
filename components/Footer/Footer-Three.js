@@ -89,7 +89,7 @@ const FooterThree = () => {
 
                   <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
                     <div className="footer-widget">
-                      <h5 className="ft-title-new">Get Contact</h5>
+                      <h5 className="ft-title-new">Contact Us</h5>
                       <ul className="ft-link">
                         <li>
                           <span>Phone:</span>{" "}

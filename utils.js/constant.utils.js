@@ -45,6 +45,9 @@ import com_44 from "../public/images/companies/17.png";
 import com_45 from "../public/images/companies/18.png";
 import com_46 from "../public/images/companies/14.png";
 import com_47 from "../public/images/companies/12.png";
+import com_48 from "../public/images/companies/48.png"
+import com_49 from "../public/images/companies/49.png"
+import com_50 from "../public/images/companies/50.png"
 
 import brandLogo1 from "../public/images/brand/l-7.png";
 import brandLogo2 from "../public/images/brand/l-10.png";
@@ -114,6 +117,9 @@ export const companies = [
   com_45,
   com_46,
   com_47,
+  com_48,
+  com_49,
+  com_50
 ];
 
 export const brand = [
@@ -170,11 +176,11 @@ export const brand = [
 export const Awards = [
   {
     img: AwardImgOne,
-    title: "Double Advantage Campaign",
+    title: "Excellence in learning in that shape",
   },
   {
     img: AwardImgTwo,
-    title: "India's Rising Star 2024 in the edtech space by the Brand Story ",
+    title: "India’s rising star 2024 Award",
   },
   {
     img: AwardImgThree,
@@ -187,10 +193,9 @@ export const Awards = [
   {
     img: AwardImgFive,
     title: "The Brand, Advertising & Marketing Summit 2023",
-    subTitle: "We are thrilled to announce that verandaRACE has been honored at the 6th edition of the ET Edge Iconic Brands of India Event held in Mumbai on September 25, 2023.",
   },
   {
     img: AwardImgSix,
-    title: "Iconic Brands of India 2023",
+    title: "India 2023 award",
   },
 ];

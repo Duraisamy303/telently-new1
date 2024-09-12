@@ -3,9 +3,7 @@ import Link from "next/link";
 
 import BrandData from "../../data/elements/brands.json";
 
-const BrandTwo = ({data}) => {
-
- 
+const BrandTwo = ({ data }) => {
   return (
     <div className="container">
       <div className="row mt--20">
@@ -14,15 +12,13 @@ const BrandTwo = ({data}) => {
             {data &&
               data.map((data, index) => (
                 <li key={index}>
-                  <Link href="#">
-                    <Image
-                      src={data}
-                      width={"100%"}
-                      height={"100%"}
-                      priority={true}
-                      alt="Brand Image"
-                    />
-                  </Link>
+                  <Image
+                    src={data}
+                    width={"100%"}
+                    height={"100%"}
+                    priority={true}
+                    alt="Brand Image"
+                  />
                 </li>
               ))}
           </ul>

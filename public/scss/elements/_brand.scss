@@ -76,15 +76,15 @@
         }
         a {
             display: block;
-            img {
-                max-height: 32px;
-                @media #{$md-layout} {
-                    max-height: 25px;
-                }
-                @media #{$sm-layout} {
-                    max-height: 25px;
-                }
-            }
+            // img {
+            //     max-height: 32px;
+            //     @media #{$md-layout} {
+            //         max-height: 25px;
+            //     }
+            //     @media #{$sm-layout} {
+            //         max-height: 25px;
+            //     }
+            // }
         }
     }
 }
