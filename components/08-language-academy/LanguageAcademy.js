@@ -79,6 +79,7 @@ import useFetch from "@/context/useFetch";
 
 import CounterData from "../../data/elements/counter.json";
 import CardFive from "../Cards/Card-Five";
+import CallToActionFive from "../Call-To-Action/CallToAction-Five";
 
 const LanguageAcademy = () => {
   let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.languageAcademy));
@@ -629,9 +630,9 @@ const LanguageAcademy = () => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity">
-                  Awards & Accolades
+                  Excellence in Learning
                 </span>
-                <h2 className="title sectionHeading">Excellence in Learning</h2>
+                <h2 className="title sectionHeading">Awards & Accolades</h2>
                 {/* <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p> */}
@@ -714,7 +715,7 @@ const LanguageAcademy = () => {
         className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own"
         style={{ padding: "60px" }}
       >
-        <CallToActionSix />
+        <CallToActionFive />
       </div>
     </>
   );

@@ -45,9 +45,9 @@ import com_44 from "../public/images/companies/17.png";
 import com_45 from "../public/images/companies/18.png";
 import com_46 from "../public/images/companies/14.png";
 import com_47 from "../public/images/companies/12.png";
-import com_48 from "../public/images/companies/48.png"
-import com_49 from "../public/images/companies/49.png"
-import com_50 from "../public/images/companies/50.png"
+import com_48 from "../public/images/companies/48.png";
+import com_49 from "../public/images/companies/49.png";
+import com_50 from "../public/images/companies/50.png";
 
 import brandLogo1 from "../public/images/brand/l-7.png";
 import brandLogo2 from "../public/images/brand/l-10.png";
@@ -119,7 +119,7 @@ export const companies = [
   com_47,
   com_48,
   com_49,
-  com_50
+  com_50,
 ];
 
 export const brand = [
@@ -176,7 +176,7 @@ export const brand = [
 export const Awards = [
   {
     img: AwardImgOne,
-    title: "Excellence in learning in that shape",
+    title: "Double Advantage Campaign",
   },
   {
     img: AwardImgTwo,
@@ -196,6 +196,6 @@ export const Awards = [
   },
   {
     img: AwardImgSix,
-    title: "India 2023 award",
+    title: "Iconic Brands of India 2023 <b>Award</b>",
   },
 ];
