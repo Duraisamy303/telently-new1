@@ -5,7 +5,15 @@ const PageHead = ({ title }) => {
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content="Page Description" />
+        <meta
+          name="title"
+          content="Transform Your Hiring Process with Talentely"
+        />
+
+        <meta
+          name="description"
+          content="Access Top Talent, No Costs & Accelerate Recruitment Cycles"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
