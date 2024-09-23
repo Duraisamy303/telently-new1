@@ -107,7 +107,15 @@ const FooterThree = () => {
                       </ul>
                       <ul className="social-icon social-default icon-naked justify-content-start mt--20">
                         {footer.socialLink.map((value, innerIndex) => (
-                          <li key={innerIndex} style={{border:"1px solid #0077b7",borderRadius:"5px", padding:"0px 5px 2px 5px", background:"#0077b7"}}>
+                          <li
+                            key={innerIndex}
+                            style={{
+                              border: "1px solid #0077b7",
+                              borderRadius: "5px",
+                              padding: "0px 5px 2px 5px",
+                              background: "#0077b7",
+                            }}
+                          >
                             <Link href={value.link} target="_blank">
                               <i className={`${value.icon} color-white`}></i>
                             </Link>
